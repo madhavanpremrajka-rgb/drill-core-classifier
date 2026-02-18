@@ -1,0 +1,49 @@
+# Python cache files — created automatically when Python runs your code, not needed in git
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments — your local Python environment, can be recreated from requirements.txt
+.venv/
+venv/
+env/
+
+# Jupyter — auto-saved checkpoint files created every time you save a notebook
+.ipynb_checkpoints/
+
+# Datasets — too large for GitHub, should be stored elsewhere (e.g. Google Drive, S3)
+data/processed/
+data/raw/
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+
+# Allow sample images to still be tracked despite the rules above
+!data/sample/
+!artifacts/sample_inputs/
+
+# Model weights — too large for GitHub, use HuggingFace Hub or similar instead
+*.h5
+*.keras
+*.pb
+saved_model/
+
+# Training logs and experiment tracking
+logs/
+runs/
+wandb/
+*.log
+
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Sensitive environment variables — API keys etc. should never be committed
+.env
+*.env
