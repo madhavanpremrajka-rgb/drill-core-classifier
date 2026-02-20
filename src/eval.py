@@ -217,7 +217,7 @@ def main_eval(C, R, L, class_names, test_data):
     y_true, y_pred = get_predictions(model, test_data)
     test_results = evaluate(model, test_data)
 
-    plot_confusion_matrix(y_true, y_pred, class_names)
+    plot_confusion_matrix(y_true, y_pred, class_names, C, R, L)
 
     report = get_classification_report(y_true, y_pred, class_names)
 
