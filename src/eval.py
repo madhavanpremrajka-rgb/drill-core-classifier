@@ -14,7 +14,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 import tf_keras as keras
 import tensorflow_hub as hub
 
-from src.dataset import generate_dataset, which_dataset
+from src.dataset import generate_test_set, which_dataset
 from src.utils import get_class_names
 #--------------------------------------------------------------#
 # Constants                                                    #
@@ -97,7 +97,7 @@ def evaluate(model, test_data):
     return {
         "test_accuracy" : round(test_accuracy,4),
         "test_loss"     : round(test_loss, 4),
-        "evaluation time": round(eval_time, 1)
+        "eval_time_s"   : round(eval_time, 1)
     }
 
 def get_predictions(model, test_data):
@@ -115,12 +115,11 @@ def get_predictions(model, test_data):
 
     for i in range(len(test_data)):
         X, y = test_data[i]
-        y_t = np.argmax(y)
-        y_true.extend(y_t)
-
-        preds = model.predict(X)
-        y_p = np.argmax(preds)
-        y_pred.extend(y_p)
+        for j in range(len(y)):
+            y_true.append(np.argmax(y[j]))
+        y_p = model.predict(X, verbose=0)
+        for j in range(len(y_p)):
+            y_pred.append(np.argmax(y_p[j]))
     
     return np.array(y_true), np.array(y_pred)
 
@@ -136,18 +135,22 @@ def plot_confusion_matrix(y_true, y_pred, class_names, C, R, L):
     :param L: RWDA level/Augmentation level
     """
     os.makedirs(PLOTS_DIR, exist_ok=True)
-    confusion_matrix = confusion_matrix(y_true, y_pred)
+    cm = confusion_matrix(y_true, y_pred)
     fig_size = 10 if C==7 else 20
 
     plt.figure(figsize=(fig_size, fig_size))
     sns.heatmap(
-        confusion_matrix,
+        cm,
         annot=True,
         fmt="d",
         cmap="Blues"
     )
-    plt.xticks(np.arange(0, C, 1), labels=class_names, rotation=90)
-    plt.yticks(np.arange(0, C, 1), labels=class_names)
+    if C==7:
+        plt.xticks(np.arange(0.5, 7.5, 1), labels=class_names, rotation=45)
+        plt.yticks(np.arange(0.5, 7.5, 1), labels=class_names, rotation=45)
+    else:
+        plt.xticks(np.arange(0.5, 35.5, 1), labels=class_names, rotation=90)
+        plt.yticks(np.arange(0.5, 35.5, 1), labels=class_names, rotation=0)
     plt.xlabel("Predicted Label")
     plt.ylabel("True Label")
     plt.title(f"Confusion Matrix | {C} Classes | {R}x{R} Res | {L} RWDA Level")
@@ -167,8 +170,8 @@ def get_classification_report(y_true, y_pred, class_names):
     :param class_names: Class names
     """
 
-    report = classification_report(y_true, y_pred, class_names, output_dict=True)
-    print(classification_report(y_true, y_pred, class_names))
+    report = classification_report(y_true, y_pred, target_names=class_names, output_dict=True)
+    print(classification_report(y_true, y_pred, target_names=class_names))
     return report
 
 def update_metrics(C, R, L, new_results):
@@ -212,7 +215,6 @@ def main_eval(C, R, L, class_names, test_data):
     print(f"\n{'='*55}")
     print(f"Evaluating | C={C} | R={R} | L={L}")
     print(f"{'='*55}")
-    model_name = get_model_name(C, R, L)
     model = load_model(C, R, L)
     y_true, y_pred = get_predictions(model, test_data)
     test_results = evaluate(model, test_data)
@@ -229,10 +231,11 @@ def main():
     for C in CLASSES:
         for R in RESOLUTIONS:
             for L in AUG_LEVELS:
+                print(f"{'**'*55}")
                 target_dir = which_dataset(C, R, L)
                 target_dir = os.path.join(target_dir, "train")
                 class_names = get_class_names(target_dir=target_dir)
-                _, _, test_data = generate_dataset(C, R, L)
+                test_data = generate_test_set(C, R)
                 main_eval(C, R, L, class_names=class_names, test_data=test_data)
     
     print(f"\n{'='*55}")

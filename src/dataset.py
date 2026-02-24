@@ -14,7 +14,7 @@ def which_dataset(C, R, L):
     assert R in [32, 128], f"Expected R to be either 32 or 128, got {R}"
     assert L in [0.0, 0.1, 0.2, 0.3, 0.4], f"Expected L to be either 0.0, 0.1, 0.2, 0.3, or 0.4, got {L}"
 
-    root_dir = "../Data_Processed"
+    root_dir = "../Data/Data_Processed"
     dataset_name = f"Dataset-{C}_R-{R}_L-{L}_I-T"
     
     return os.path.join(root_dir, dataset_name)
@@ -35,11 +35,9 @@ def generate_dataset(C, R, L, batch_size=64, seed=26):
     dataset_dir = which_dataset(C, R, L)
     train = 'train'
     valid = 'val'
-    test = 'test'
 
     train_dir = os.path.join(dataset_dir, train)
     valid_dir = os.path.join(dataset_dir, valid)
-    test_dir = os.path.join(dataset_dir, test)
 
     train_data = datagen.flow_from_directory(
         train_dir,
@@ -56,12 +54,27 @@ def generate_dataset(C, R, L, batch_size=64, seed=26):
         class_mode = 'categorical',
         seed = seed
     )
+
+    return train_data, valid_data
+
+def generate_test_set(C, R, seed = 26, batch_size = 64):
+    """
+    Loads only the test split for a given configuration.
+
+    :param C: Number of classes: 7 or 35
+    :param R: Resolution of the images: 32 or 128
+    :param seed: seed (default 26)
+    """
+    datagen = ImageDataGenerator(rescale=1/255.)
+
+    test_set_dir = f'../Data/Test_Data/Dataset-{C}_R-{R}_L-0.4_I-E/test'
+
+    print(f"Loading test set from {test_set_dir}")
     test_data = datagen.flow_from_directory(
-        test_dir,
+        test_set_dir,
         batch_size = batch_size,
         target_size = (R, R),
         class_mode = 'categorical',
         seed = seed
     )
-
-    return train_data, valid_data, test_data
+    return test_data
