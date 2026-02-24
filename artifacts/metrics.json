@@ -1,0 +1,3082 @@
+[
+    {
+        "C": 7,
+        "R": 32,
+        "L": 0.0,
+        "model_name": "EfficientNetB0_C-7_R-32_L-0.0_trainable-True_20260220-103448",
+        "best_val_accuracy": 0.995,
+        "best_val_loss": 0.098,
+        "epochs_run": 20,
+        "train_time_s": 3034.2,
+        "test_accuracy": 0.9572,
+        "test_loss": 0.2166,
+        "eval_time_s": 60.6,
+        "per_class_metric": {
+            "1.Red sandstone": {
+                "precision": 0.9920977011494253,
+                "recall": 0.9864285714285714,
+                "f1-score": 0.9892550143266475,
+                "support": 1400.0
+            },
+            "2.Light sandstone": {
+                "precision": 0.9862518089725036,
+                "recall": 0.9735714285714285,
+                "f1-score": 0.9798705966930266,
+                "support": 1400.0
+            },
+            "3.Gray siltstone": {
+                "precision": 0.9966666666666667,
+                "recall": 0.8542857142857143,
+                "f1-score": 0.92,
+                "support": 1400.0
+            },
+            "4.Mudstone": {
+                "precision": 0.9076819407008087,
+                "recall": 0.9621428571428572,
+                "f1-score": 0.934119278779473,
+                "support": 1400.0
+            },
+            "5.Granite": {
+                "precision": 0.9802399435426958,
+                "recall": 0.9921428571428571,
+                "f1-score": 0.9861554845580405,
+                "support": 1400.0
+            },
+            "6.Basalt": {
+                "precision": 0.9786135693215339,
+                "recall": 0.9478571428571428,
+                "f1-score": 0.9629898403483309,
+                "support": 1400.0
+            },
+            "7.Marble": {
+                "precision": 0.8782664117272148,
+                "recall": 0.9842857142857143,
+                "f1-score": 0.9282586729538566,
+                "support": 1400.0
+            },
+            "accuracy": 0.9572448979591837,
+            "macro avg": {
+                "precision": 0.9599740060115499,
+                "recall": 0.9572448979591837,
+                "f1-score": 0.9572355553799107,
+                "support": 9800.0
+            },
+            "weighted avg": {
+                "precision": 0.95997400601155,
+                "recall": 0.9572448979591837,
+                "f1-score": 0.9572355553799109,
+                "support": 9800.0
+            }
+        }
+    },
+    {
+        "C": 7,
+        "R": 32,
+        "L": 0.1,
+        "model_name": "EfficientNetB0_C-7_R-32_L-0.1_trainable-True_20260220-112537",
+        "best_val_accuracy": 0.9976,
+        "best_val_loss": 0.1291,
+        "epochs_run": 14,
+        "train_time_s": 2373.2,
+        "test_accuracy": 0.9884,
+        "test_loss": 0.1558,
+        "eval_time_s": 60.5,
+        "per_class_metric": {
+            "1.Red sandstone": {
+                "precision": 0.9964260185847034,
+                "recall": 0.9957142857142857,
+                "f1-score": 0.9960700250089317,
+                "support": 1400.0
+            },
+            "2.Light sandstone": {
+                "precision": 0.9942652329749104,
+                "recall": 0.9907142857142858,
+                "f1-score": 0.9924865831842576,
+                "support": 1400.0
+            },
+            "3.Gray siltstone": {
+                "precision": 0.9850640113798008,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.9871703492516037,
+                "support": 1400.0
+            },
+            "4.Mudstone": {
+                "precision": 0.9774806474313863,
+                "recall": 0.9921428571428571,
+                "f1-score": 0.9847571783055654,
+                "support": 1400.0
+            },
+            "5.Granite": {
+                "precision": 0.994277539341917,
+                "recall": 0.9928571428571429,
+                "f1-score": 0.993566833452466,
+                "support": 1400.0
+            },
+            "6.Basalt": {
+                "precision": 0.9891304347826086,
+                "recall": 0.975,
+                "f1-score": 0.9820143884892086,
+                "support": 1400.0
+            },
+            "7.Marble": {
+                "precision": 0.9821556031406139,
+                "recall": 0.9828571428571429,
+                "f1-score": 0.982506247768654,
+                "support": 1400.0
+            },
+            "accuracy": 0.9883673469387755,
+            "macro avg": {
+                "precision": 0.9883999268051342,
+                "recall": 0.9883673469387755,
+                "f1-score": 0.9883673722086695,
+                "support": 9800.0
+            },
+            "weighted avg": {
+                "precision": 0.9883999268051343,
+                "recall": 0.9883673469387755,
+                "f1-score": 0.9883673722086697,
+                "support": 9800.0
+            }
+        }
+    },
+    {
+        "C": 7,
+        "R": 32,
+        "L": 0.2,
+        "model_name": "EfficientNetB0_C-7_R-32_L-0.2_trainable-True_20260220-120528",
+        "best_val_accuracy": 0.996,
+        "best_val_loss": 0.1327,
+        "epochs_run": 10,
+        "train_time_s": 1873.6,
+        "test_accuracy": 0.9904,
+        "test_loss": 0.1529,
+        "eval_time_s": 60.2,
+        "per_class_metric": {
+            "1.Red sandstone": {
+                "precision": 0.9971387696709585,
+                "recall": 0.9957142857142857,
+                "f1-score": 0.9964260185847034,
+                "support": 1400.0
+            },
+            "2.Light sandstone": {
+                "precision": 0.992867332382311,
+                "recall": 0.9942857142857143,
+                "f1-score": 0.9935760171306209,
+                "support": 1400.0
+            },
+            "3.Gray siltstone": {
+                "precision": 0.9858557284299858,
+                "recall": 0.9957142857142857,
+                "f1-score": 0.9907604832977968,
+                "support": 1400.0
+            },
+            "4.Mudstone": {
+                "precision": 0.981677237491191,
+                "recall": 0.995,
+                "f1-score": 0.9882937211777226,
+                "support": 1400.0
+            },
+            "5.Granite": {
+                "precision": 0.9845179451090781,
+                "recall": 0.9992857142857143,
+                "f1-score": 0.9918468628146048,
+                "support": 1400.0
+            },
+            "6.Basalt": {
+                "precision": 0.9978181818181818,
+                "recall": 0.98,
+                "f1-score": 0.9888288288288288,
+                "support": 1400.0
+            },
+            "7.Marble": {
+                "precision": 0.9934354485776805,
+                "recall": 0.9728571428571429,
+                "f1-score": 0.9830386142186937,
+                "support": 1400.0
+            },
+            "accuracy": 0.9904081632653061,
+            "macro avg": {
+                "precision": 0.9904729490684838,
+                "recall": 0.9904081632653062,
+                "f1-score": 0.9903957922932813,
+                "support": 9800.0
+            },
+            "weighted avg": {
+                "precision": 0.9904729490684837,
+                "recall": 0.9904081632653061,
+                "f1-score": 0.9903957922932815,
+                "support": 9800.0
+            }
+        }
+    },
+    {
+        "C": 7,
+        "R": 32,
+        "L": 0.3,
+        "model_name": "EfficientNetB0_C-7_R-32_L-0.3_trainable-True_20260220-123654",
+        "best_val_accuracy": 0.9964,
+        "best_val_loss": 0.1498,
+        "epochs_run": 5,
+        "train_time_s": 1198.9,
+        "test_accuracy": 0.9877,
+        "test_loss": 0.1723,
+        "eval_time_s": 62.1,
+        "per_class_metric": {
+            "1.Red sandstone": {
+                "precision": 0.993594306049822,
+                "recall": 0.9971428571428571,
+                "f1-score": 0.9953654188948307,
+                "support": 1400.0
+            },
+            "2.Light sandstone": {
+                "precision": 0.998546511627907,
+                "recall": 0.9814285714285714,
+                "f1-score": 0.9899135446685879,
+                "support": 1400.0
+            },
+            "3.Gray siltstone": {
+                "precision": 0.9850427350427351,
+                "recall": 0.9878571428571429,
+                "f1-score": 0.9864479315263909,
+                "support": 1400.0
+            },
+            "4.Mudstone": {
+                "precision": 0.9878744650499287,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.9885795860099929,
+                "support": 1400.0
+            },
+            "5.Granite": {
+                "precision": 0.9935391241923905,
+                "recall": 0.9885714285714285,
+                "f1-score": 0.9910490511994271,
+                "support": 1400.0
+            },
+            "6.Basalt": {
+                "precision": 0.9781382228490832,
+                "recall": 0.9907142857142858,
+                "f1-score": 0.9843860894251242,
+                "support": 1400.0
+            },
+            "7.Marble": {
+                "precision": 0.9771754636233951,
+                "recall": 0.9785714285714285,
+                "f1-score": 0.9778729478943612,
+                "support": 1400.0
+            },
+            "accuracy": 0.9876530612244898,
+            "macro avg": {
+                "precision": 0.9877015469193233,
+                "recall": 0.9876530612244899,
+                "f1-score": 0.9876592242312449,
+                "support": 9800.0
+            },
+            "weighted avg": {
+                "precision": 0.9877015469193231,
+                "recall": 0.9876530612244898,
+                "f1-score": 0.987659224231245,
+                "support": 9800.0
+            }
+        }
+    },
+    {
+        "C": 7,
+        "R": 32,
+        "L": 0.4,
+        "model_name": "EfficientNetB0_C-7_R-32_L-0.4_trainable-True_20260220-125705",
+        "best_val_accuracy": 0.9967,
+        "best_val_loss": 0.1105,
+        "epochs_run": 13,
+        "train_time_s": 2821.9,
+        "test_accuracy": 0.9886,
+        "test_loss": 0.1376,
+        "eval_time_s": 62.2,
+        "per_class_metric": {
+            "1.Red sandstone": {
+                "precision": 0.9978586723768736,
+                "recall": 0.9985714285714286,
+                "f1-score": 0.9982149232416994,
+                "support": 1400.0
+            },
+            "2.Light sandstone": {
+                "precision": 0.9992816091954023,
+                "recall": 0.9935714285714285,
+                "f1-score": 0.9964183381088825,
+                "support": 1400.0
+            },
+            "3.Gray siltstone": {
+                "precision": 0.9934924078091106,
+                "recall": 0.9814285714285714,
+                "f1-score": 0.9874236435501258,
+                "support": 1400.0
+            },
+            "4.Mudstone": {
+                "precision": 0.9555403556771546,
+                "recall": 0.9978571428571429,
+                "f1-score": 0.976240391334731,
+                "support": 1400.0
+            },
+            "5.Granite": {
+                "precision": 0.9942979330007128,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9953621120228326,
+                "support": 1400.0
+            },
+            "6.Basalt": {
+                "precision": 0.9899856938483548,
+                "recall": 0.9885714285714285,
+                "f1-score": 0.9892780557541101,
+                "support": 1400.0
+            },
+            "7.Marble": {
+                "precision": 0.991182953710507,
+                "recall": 0.9635714285714285,
+                "f1-score": 0.9771821803694314,
+                "support": 1400.0
+            },
+            "accuracy": 0.9885714285714285,
+            "macro avg": {
+                "precision": 0.988805660802588,
+                "recall": 0.9885714285714285,
+                "f1-score": 0.9885885206259734,
+                "support": 9800.0
+            },
+            "weighted avg": {
+                "precision": 0.9888056608025879,
+                "recall": 0.9885714285714285,
+                "f1-score": 0.9885885206259732,
+                "support": 9800.0
+            }
+        }
+    },
+    {
+        "C": 7,
+        "R": 128,
+        "L": 0.0,
+        "model_name": "EfficientNetB0_C-7_R-128_L-0.0_trainable-True_20260220-134429",
+        "best_val_accuracy": 0.9993,
+        "best_val_loss": 0.0624,
+        "epochs_run": 18,
+        "train_time_s": 3101.3,
+        "test_accuracy": 0.9833,
+        "test_loss": 0.1136,
+        "eval_time_s": 64.8,
+        "per_class_metric": {
+            "1.Red sandstone": {
+                "precision": 0.9701181375955524,
+                "recall": 0.9971428571428571,
+                "f1-score": 0.9834448749559704,
+                "support": 1400.0
+            },
+            "2.Light sandstone": {
+                "precision": 0.9855072463768116,
+                "recall": 0.9714285714285714,
+                "f1-score": 0.9784172661870504,
+                "support": 1400.0
+            },
+            "3.Gray siltstone": {
+                "precision": 0.9963476990504018,
+                "recall": 0.9742857142857143,
+                "f1-score": 0.9851932105453233,
+                "support": 1400.0
+            },
+            "4.Mudstone": {
+                "precision": 0.9823819591261451,
+                "recall": 0.9957142857142857,
+                "f1-score": 0.9890031926214969,
+                "support": 1400.0
+            },
+            "5.Granite": {
+                "precision": 0.985200845665962,
+                "recall": 0.9985714285714286,
+                "f1-score": 0.9918410783965945,
+                "support": 1400.0
+            },
+            "6.Basalt": {
+                "precision": 0.9992481203007518,
+                "recall": 0.9492857142857143,
+                "f1-score": 0.9736263736263736,
+                "support": 1400.0
+            },
+            "7.Marble": {
+                "precision": 0.9660664819944599,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9810126582278481,
+                "support": 1400.0
+            },
+            "accuracy": 0.983265306122449,
+            "macro avg": {
+                "precision": 0.9835529271585836,
+                "recall": 0.9832653061224489,
+                "f1-score": 0.9832198077943797,
+                "support": 9800.0
+            },
+            "weighted avg": {
+                "precision": 0.9835529271585834,
+                "recall": 0.983265306122449,
+                "f1-score": 0.9832198077943796,
+                "support": 9800.0
+            }
+        }
+    },
+    {
+        "C": 7,
+        "R": 128,
+        "L": 0.1,
+        "model_name": "EfficientNetB0_C-7_R-128_L-0.1_trainable-True_20260220-143622",
+        "best_val_accuracy": 1.0,
+        "best_val_loss": 0.0694,
+        "epochs_run": 20,
+        "train_time_s": 3625.0,
+        "test_accuracy": 0.9946,
+        "test_loss": 0.087,
+        "eval_time_s": 66.1,
+        "per_class_metric": {
+            "1.Red sandstone": {
+                "precision": 0.9985580389329488,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.9939002511661285,
+                "support": 1400.0
+            },
+            "2.Light sandstone": {
+                "precision": 0.996413199426112,
+                "recall": 0.9921428571428571,
+                "f1-score": 0.9942734430923408,
+                "support": 1400.0
+            },
+            "3.Gray siltstone": {
+                "precision": 0.994306049822064,
+                "recall": 0.9978571428571429,
+                "f1-score": 0.996078431372549,
+                "support": 1400.0
+            },
+            "4.Mudstone": {
+                "precision": 0.9943019943019943,
+                "recall": 0.9971428571428571,
+                "f1-score": 0.9957203994293866,
+                "support": 1400.0
+            },
+            "5.Granite": {
+                "precision": 0.9992836676217765,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9978540772532188,
+                "support": 1400.0
+            },
+            "6.Basalt": {
+                "precision": 0.9809992962702322,
+                "recall": 0.9957142857142857,
+                "f1-score": 0.9883020205600851,
+                "support": 1400.0
+            },
+            "7.Marble": {
+                "precision": 0.9985642498205313,
+                "recall": 0.9935714285714285,
+                "f1-score": 0.9960615825277479,
+                "support": 1400.0
+            },
+            "accuracy": 0.9945918367346939,
+            "macro avg": {
+                "precision": 0.9946323565993798,
+                "recall": 0.9945918367346938,
+                "f1-score": 0.9945986007716368,
+                "support": 9800.0
+            },
+            "weighted avg": {
+                "precision": 0.9946323565993799,
+                "recall": 0.9945918367346939,
+                "f1-score": 0.9945986007716365,
+                "support": 9800.0
+            }
+        }
+    },
+    {
+        "C": 7,
+        "R": 128,
+        "L": 0.2,
+        "model_name": "EfficientNetB0_C-7_R-128_L-0.2_trainable-True_20260220-153700",
+        "best_val_accuracy": 0.999,
+        "best_val_loss": 0.099,
+        "epochs_run": 11,
+        "train_time_s": 2374.7,
+        "test_accuracy": 0.9977,
+        "test_loss": 0.1046,
+        "eval_time_s": 65.0,
+        "per_class_metric": {
+            "1.Red sandstone": {
+                "precision": 0.9985734664764622,
+                "recall": 1.0,
+                "f1-score": 0.9992862241256245,
+                "support": 1400.0
+            },
+            "2.Light sandstone": {
+                "precision": 1.0,
+                "recall": 0.9971428571428571,
+                "f1-score": 0.9985693848354793,
+                "support": 1400.0
+            },
+            "3.Gray siltstone": {
+                "precision": 0.9992810927390366,
+                "recall": 0.9928571428571429,
+                "f1-score": 0.9960587603009674,
+                "support": 1400.0
+            },
+            "4.Mudstone": {
+                "precision": 0.9978571428571429,
+                "recall": 0.9978571428571429,
+                "f1-score": 0.9978571428571429,
+                "support": 1400.0
+            },
+            "5.Granite": {
+                "precision": 0.9985714285714286,
+                "recall": 0.9985714285714286,
+                "f1-score": 0.9985714285714286,
+                "support": 1400.0
+            },
+            "6.Basalt": {
+                "precision": 0.9950248756218906,
+                "recall": 1.0,
+                "f1-score": 0.9975062344139651,
+                "support": 1400.0
+            },
+            "7.Marble": {
+                "precision": 0.9943019943019943,
+                "recall": 0.9971428571428571,
+                "f1-score": 0.9957203994293866,
+                "support": 1400.0
+            },
+            "accuracy": 0.9976530612244898,
+            "macro avg": {
+                "precision": 0.9976585715097078,
+                "recall": 0.9976530612244898,
+                "f1-score": 0.9976527963619991,
+                "support": 9800.0
+            },
+            "weighted avg": {
+                "precision": 0.9976585715097078,
+                "recall": 0.9976530612244898,
+                "f1-score": 0.9976527963619992,
+                "support": 9800.0
+            }
+        }
+    },
+    {
+        "C": 7,
+        "R": 128,
+        "L": 0.3,
+        "model_name": "EfficientNetB0_C-7_R-128_L-0.3_trainable-True_20260220-161644",
+        "best_val_accuracy": 0.9993,
+        "best_val_loss": 0.0978,
+        "epochs_run": 10,
+        "train_time_s": 2278.4,
+        "test_accuracy": 0.9971,
+        "test_loss": 0.1079,
+        "eval_time_s": 63.3,
+        "per_class_metric": {
+            "1.Red sandstone": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 1400.0
+            },
+            "2.Light sandstone": {
+                "precision": 0.9992805755395684,
+                "recall": 0.9921428571428571,
+                "f1-score": 0.9956989247311828,
+                "support": 1400.0
+            },
+            "3.Gray siltstone": {
+                "precision": 0.998567335243553,
+                "recall": 0.9957142857142857,
+                "f1-score": 0.9971387696709585,
+                "support": 1400.0
+            },
+            "4.Mudstone": {
+                "precision": 0.9992836676217765,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9978540772532188,
+                "support": 1400.0
+            },
+            "5.Granite": {
+                "precision": 0.9992846924177397,
+                "recall": 0.9978571428571429,
+                "f1-score": 0.9985704074338814,
+                "support": 1400.0
+            },
+            "6.Basalt": {
+                "precision": 0.9992852037169406,
+                "recall": 0.9985714285714286,
+                "f1-score": 0.9989281886387996,
+                "support": 1400.0
+            },
+            "7.Marble": {
+                "precision": 0.9845179451090781,
+                "recall": 0.9992857142857143,
+                "f1-score": 0.9918468628146048,
+                "support": 1400.0
+            },
+            "accuracy": 0.9971428571428571,
+            "macro avg": {
+                "precision": 0.9971742028069509,
+                "recall": 0.9971428571428571,
+                "f1-score": 0.9971481757918065,
+                "support": 9800.0
+            },
+            "weighted avg": {
+                "precision": 0.9971742028069509,
+                "recall": 0.9971428571428571,
+                "f1-score": 0.9971481757918064,
+                "support": 9800.0
+            }
+        }
+    },
+    {
+        "C": 7,
+        "R": 128,
+        "L": 0.4,
+        "model_name": "EfficientNetB0_C-7_R-128_L-0.4_trainable-True_20260220-165510",
+        "best_val_accuracy": 1.0,
+        "best_val_loss": 0.0584,
+        "epochs_run": 16,
+        "train_time_s": 4010.1,
+        "test_accuracy": 0.9983,
+        "test_loss": 0.0626,
+        "eval_time_s": 65.5,
+        "per_class_metric": {
+            "1.Red sandstone": {
+                "precision": 1.0,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.998211091234347,
+                "support": 1400.0
+            },
+            "2.Light sandstone": {
+                "precision": 0.9992836676217765,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9978540772532188,
+                "support": 1400.0
+            },
+            "3.Gray siltstone": {
+                "precision": 0.9992857142857143,
+                "recall": 0.9992857142857143,
+                "f1-score": 0.9992857142857143,
+                "support": 1400.0
+            },
+            "4.Mudstone": {
+                "precision": 1.0,
+                "recall": 0.9978571428571429,
+                "f1-score": 0.9989274222381123,
+                "support": 1400.0
+            },
+            "5.Granite": {
+                "precision": 0.9950213371266002,
+                "recall": 0.9992857142857143,
+                "f1-score": 0.9971489665003563,
+                "support": 1400.0
+            },
+            "6.Basalt": {
+                "precision": 0.9971489665003563,
+                "recall": 0.9992857142857143,
+                "f1-score": 0.9982161969318587,
+                "support": 1400.0
+            },
+            "7.Marble": {
+                "precision": 0.9971489665003563,
+                "recall": 0.9992857142857143,
+                "f1-score": 0.9982161969318587,
+                "support": 1400.0
+            },
+            "accuracy": 0.998265306122449,
+            "macro avg": {
+                "precision": 0.9982698074335434,
+                "recall": 0.9982653061224491,
+                "f1-score": 0.9982656664822095,
+                "support": 9800.0
+            },
+            "weighted avg": {
+                "precision": 0.9982698074335434,
+                "recall": 0.998265306122449,
+                "f1-score": 0.9982656664822094,
+                "support": 9800.0
+            }
+        }
+    },
+    {
+        "C": 35,
+        "R": 32,
+        "L": 0.0,
+        "model_name": "EfficientNetB0_C-35_R-32_L-0.0_trainable-True_20260220-045904",
+        "best_val_accuracy": 0.9783,
+        "best_val_loss": 0.1764,
+        "epochs_run": 20,
+        "train_time_s": 3071.0,
+        "test_accuracy": 0.8932,
+        "test_loss": 0.6002,
+        "eval_time_s": 60.9,
+        "per_class_metric": {
+            "1.Red sandstone": {
+                "precision": 0.9962406015037594,
+                "recall": 0.9464285714285714,
+                "f1-score": 0.9706959706959707,
+                "support": 280.0
+            },
+            "2.Light sandstone": {
+                "precision": 0.9689922480620154,
+                "recall": 0.8928571428571429,
+                "f1-score": 0.929368029739777,
+                "support": 280.0
+            },
+            "3.Gray-green sandstone": {
+                "precision": 0.9042904290429042,
+                "recall": 0.9785714285714285,
+                "f1-score": 0.9399656946826758,
+                "support": 280.0
+            },
+            "4.Gray siltstone": {
+                "precision": 0.8384146341463414,
+                "recall": 0.9821428571428571,
+                "f1-score": 0.9046052631578947,
+                "support": 280.0
+            },
+            "5.Brown siltstone": {
+                "precision": 0.9647577092511013,
+                "recall": 0.7821428571428571,
+                "f1-score": 0.863905325443787,
+                "support": 280.0
+            },
+            "6.Carbonaceous siltstone": {
+                "precision": 1.0,
+                "recall": 0.8285714285714286,
+                "f1-score": 0.90625,
+                "support": 280.0
+            },
+            "7.Mudstone": {
+                "precision": 0.9808612440191388,
+                "recall": 0.7321428571428571,
+                "f1-score": 0.8384458077709611,
+                "support": 280.0
+            },
+            "8.Granite": {
+                "precision": 0.9598540145985401,
+                "recall": 0.9392857142857143,
+                "f1-score": 0.9494584837545126,
+                "support": 280.0
+            },
+            "9.Megacrystic granite": {
+                "precision": 0.9801587301587301,
+                "recall": 0.8821428571428571,
+                "f1-score": 0.9285714285714286,
+                "support": 280.0
+            },
+            "10.Monzogranite": {
+                "precision": 0.8067796610169492,
+                "recall": 0.85,
+                "f1-score": 0.8278260869565217,
+                "support": 280.0
+            },
+            "11.Fine-grained granite": {
+                "precision": 0.9745454545454545,
+                "recall": 0.9571428571428572,
+                "f1-score": 0.9657657657657658,
+                "support": 280.0
+            },
+            "12.Pegmatite": {
+                "precision": 0.9427480916030534,
+                "recall": 0.8821428571428571,
+                "f1-score": 0.9114391143911439,
+                "support": 280.0
+            },
+            "13.Basalt": {
+                "precision": 0.6717557251908397,
+                "recall": 0.9428571428571428,
+                "f1-score": 0.7845468053491828,
+                "support": 280.0
+            },
+            "14.Fine-grained basalt": {
+                "precision": 0.9788732394366197,
+                "recall": 0.9928571428571429,
+                "f1-score": 0.9858156028368794,
+                "support": 280.0
+            },
+            "15.Gabbro": {
+                "precision": 0.9402390438247012,
+                "recall": 0.8428571428571429,
+                "f1-score": 0.8888888888888888,
+                "support": 280.0
+            },
+            "16.Dolerite": {
+                "precision": 0.8837209302325582,
+                "recall": 0.95,
+                "f1-score": 0.9156626506024096,
+                "support": 280.0
+            },
+            "17.White marble": {
+                "precision": 0.8759398496240601,
+                "recall": 0.8321428571428572,
+                "f1-score": 0.8534798534798534,
+                "support": 280.0
+            },
+            "18.Blue marble": {
+                "precision": 0.9959349593495935,
+                "recall": 0.875,
+                "f1-score": 0.9315589353612167,
+                "support": 280.0
+            },
+            "19.Dolomite": {
+                "precision": 0.9274809160305344,
+                "recall": 0.8678571428571429,
+                "f1-score": 0.8966789667896679,
+                "support": 280.0
+            },
+            "20.Black Shale": {
+                "precision": 1.0,
+                "recall": 0.8821428571428571,
+                "f1-score": 0.937381404174573,
+                "support": 280.0
+            },
+            "21.Red shale": {
+                "precision": 0.7411444141689373,
+                "recall": 0.9714285714285714,
+                "f1-score": 0.8408037094281299,
+                "support": 280.0
+            },
+            "22.Dark green calc-silicate": {
+                "precision": 0.8925081433224755,
+                "recall": 0.9785714285714285,
+                "f1-score": 0.9335604770017035,
+                "support": 280.0
+            },
+            "23.Brown calc-silicate": {
+                "precision": 0.974169741697417,
+                "recall": 0.9428571428571428,
+                "f1-score": 0.9582577132486388,
+                "support": 280.0
+            },
+            "24.Skarn": {
+                "precision": 0.8514851485148515,
+                "recall": 0.9214285714285714,
+                "f1-score": 0.8850771869639794,
+                "support": 280.0
+            },
+            "25.Red-brown dacite": {
+                "precision": 0.9809160305343512,
+                "recall": 0.9178571428571428,
+                "f1-score": 0.948339483394834,
+                "support": 280.0
+            },
+            "26.Black dacite": {
+                "precision": 0.8530465949820788,
+                "recall": 0.85,
+                "f1-score": 0.851520572450805,
+                "support": 280.0
+            },
+            "27.Rhyolite": {
+                "precision": 0.975609756097561,
+                "recall": 0.8571428571428571,
+                "f1-score": 0.9125475285171103,
+                "support": 280.0
+            },
+            "28.Banded iron formation": {
+                "precision": 0.5841121495327103,
+                "recall": 0.8928571428571429,
+                "f1-score": 0.7062146892655368,
+                "support": 280.0
+            },
+            "29.Hematite breccia": {
+                "precision": 0.6973293768545994,
+                "recall": 0.8392857142857143,
+                "f1-score": 0.7617504051863857,
+                "support": 280.0
+            },
+            "30.Altered breccia": {
+                "precision": 0.9566929133858267,
+                "recall": 0.8678571428571429,
+                "f1-score": 0.9101123595505618,
+                "support": 280.0
+            },
+            "31.Schist": {
+                "precision": 0.9192307692307692,
+                "recall": 0.8535714285714285,
+                "f1-score": 0.8851851851851852,
+                "support": 280.0
+            },
+            "32.Gneiss": {
+                "precision": 0.9784172661870504,
+                "recall": 0.9714285714285714,
+                "f1-score": 0.974910394265233,
+                "support": 280.0
+            },
+            "33.Porphyry": {
+                "precision": 0.924,
+                "recall": 0.825,
+                "f1-score": 0.8716981132075472,
+                "support": 280.0
+            },
+            "34.Brecciated mudstone": {
+                "precision": 0.978448275862069,
+                "recall": 0.8107142857142857,
+                "f1-score": 0.88671875,
+                "support": 280.0
+            },
+            "35.Shale fragments": {
+                "precision": 0.8745762711864407,
+                "recall": 0.9214285714285714,
+                "f1-score": 0.8973913043478261,
+                "support": 280.0
+            },
+            "accuracy": 0.8931632653061224,
+            "macro avg": {
+                "precision": 0.9078078380912581,
+                "recall": 0.8931632653061224,
+                "f1-score": 0.8958399414407596,
+                "support": 9800.0
+            },
+            "weighted avg": {
+                "precision": 0.9078078380912579,
+                "recall": 0.8931632653061224,
+                "f1-score": 0.8958399414407596,
+                "support": 9800.0
+            }
+        }
+    },
+    {
+        "C": 35,
+        "R": 32,
+        "L": 0.1,
+        "model_name": "EfficientNetB0_C-35_R-32_L-0.1_trainable-True_20260220-055032",
+        "best_val_accuracy": 0.9793,
+        "best_val_loss": 0.2051,
+        "epochs_run": 13,
+        "train_time_s": 2250.6,
+        "test_accuracy": 0.9407,
+        "test_loss": 0.3421,
+        "eval_time_s": 61.6,
+        "per_class_metric": {
+            "1.Red sandstone": {
+                "precision": 0.9820143884892086,
+                "recall": 0.975,
+                "f1-score": 0.978494623655914,
+                "support": 280.0
+            },
+            "2.Light sandstone": {
+                "precision": 0.9922178988326849,
+                "recall": 0.9107142857142857,
+                "f1-score": 0.9497206703910615,
+                "support": 280.0
+            },
+            "3.Gray-green sandstone": {
+                "precision": 0.8606811145510835,
+                "recall": 0.9928571428571429,
+                "f1-score": 0.9220563847429519,
+                "support": 280.0
+            },
+            "4.Gray siltstone": {
+                "precision": 0.8922558922558923,
+                "recall": 0.9464285714285714,
+                "f1-score": 0.9185441941074524,
+                "support": 280.0
+            },
+            "5.Brown siltstone": {
+                "precision": 0.9110320284697508,
+                "recall": 0.9142857142857143,
+                "f1-score": 0.9126559714795008,
+                "support": 280.0
+            },
+            "6.Carbonaceous siltstone": {
+                "precision": 1.0,
+                "recall": 0.9,
+                "f1-score": 0.9473684210526315,
+                "support": 280.0
+            },
+            "7.Mudstone": {
+                "precision": 0.9838056680161943,
+                "recall": 0.8678571428571429,
+                "f1-score": 0.9222011385199241,
+                "support": 280.0
+            },
+            "8.Granite": {
+                "precision": 0.9194630872483222,
+                "recall": 0.9785714285714285,
+                "f1-score": 0.9480968858131488,
+                "support": 280.0
+            },
+            "9.Megacrystic granite": {
+                "precision": 0.9642857142857143,
+                "recall": 0.9642857142857143,
+                "f1-score": 0.9642857142857143,
+                "support": 280.0
+            },
+            "10.Monzogranite": {
+                "precision": 0.9021739130434783,
+                "recall": 0.8892857142857142,
+                "f1-score": 0.89568345323741,
+                "support": 280.0
+            },
+            "11.Fine-grained granite": {
+                "precision": 0.9550173010380623,
+                "recall": 0.9857142857142858,
+                "f1-score": 0.9701230228471002,
+                "support": 280.0
+            },
+            "12.Pegmatite": {
+                "precision": 0.9745454545454545,
+                "recall": 0.9571428571428572,
+                "f1-score": 0.9657657657657658,
+                "support": 280.0
+            },
+            "13.Basalt": {
+                "precision": 0.967032967032967,
+                "recall": 0.9428571428571428,
+                "f1-score": 0.9547920433996383,
+                "support": 280.0
+            },
+            "14.Fine-grained basalt": {
+                "precision": 0.992831541218638,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.9910554561717353,
+                "support": 280.0
+            },
+            "15.Gabbro": {
+                "precision": 0.8754325259515571,
+                "recall": 0.9035714285714286,
+                "f1-score": 0.8892794376098418,
+                "support": 280.0
+            },
+            "16.Dolerite": {
+                "precision": 0.9633699633699634,
+                "recall": 0.9392857142857143,
+                "f1-score": 0.9511754068716094,
+                "support": 280.0
+            },
+            "17.White marble": {
+                "precision": 0.8831615120274914,
+                "recall": 0.9178571428571428,
+                "f1-score": 0.9001751313485113,
+                "support": 280.0
+            },
+            "18.Blue marble": {
+                "precision": 0.9855072463768116,
+                "recall": 0.9714285714285714,
+                "f1-score": 0.9784172661870504,
+                "support": 280.0
+            },
+            "19.Dolomite": {
+                "precision": 0.9344827586206896,
+                "recall": 0.9678571428571429,
+                "f1-score": 0.9508771929824561,
+                "support": 280.0
+            },
+            "20.Black Shale": {
+                "precision": 1.0,
+                "recall": 0.9857142857142858,
+                "f1-score": 0.9928057553956835,
+                "support": 280.0
+            },
+            "21.Red shale": {
+                "precision": 0.9440559440559441,
+                "recall": 0.9642857142857143,
+                "f1-score": 0.9540636042402827,
+                "support": 280.0
+            },
+            "22.Dark green calc-silicate": {
+                "precision": 0.9927272727272727,
+                "recall": 0.975,
+                "f1-score": 0.9837837837837838,
+                "support": 280.0
+            },
+            "23.Brown calc-silicate": {
+                "precision": 0.9448275862068966,
+                "recall": 0.9785714285714285,
+                "f1-score": 0.9614035087719298,
+                "support": 280.0
+            },
+            "24.Skarn": {
+                "precision": 0.9178571428571428,
+                "recall": 0.9178571428571428,
+                "f1-score": 0.9178571428571428,
+                "support": 280.0
+            },
+            "25.Red-brown dacite": {
+                "precision": 0.9711191335740073,
+                "recall": 0.9607142857142857,
+                "f1-score": 0.9658886894075404,
+                "support": 280.0
+            },
+            "26.Black dacite": {
+                "precision": 0.9044368600682594,
+                "recall": 0.9464285714285714,
+                "f1-score": 0.924956369982548,
+                "support": 280.0
+            },
+            "27.Rhyolite": {
+                "precision": 0.9781021897810219,
+                "recall": 0.9571428571428572,
+                "f1-score": 0.9675090252707581,
+                "support": 280.0
+            },
+            "28.Banded iron formation": {
+                "precision": 0.8703703703703703,
+                "recall": 0.8392857142857143,
+                "f1-score": 0.8545454545454545,
+                "support": 280.0
+            },
+            "29.Hematite breccia": {
+                "precision": 0.8509316770186336,
+                "recall": 0.9785714285714285,
+                "f1-score": 0.9102990033222591,
+                "support": 280.0
+            },
+            "30.Altered breccia": {
+                "precision": 0.9924528301886792,
+                "recall": 0.9392857142857143,
+                "f1-score": 0.9651376146788991,
+                "support": 280.0
+            },
+            "31.Schist": {
+                "precision": 0.8969072164948454,
+                "recall": 0.9321428571428572,
+                "f1-score": 0.9141856392294221,
+                "support": 280.0
+            },
+            "32.Gneiss": {
+                "precision": 0.9824561403508771,
+                "recall": 1.0,
+                "f1-score": 0.9911504424778761,
+                "support": 280.0
+            },
+            "33.Porphyry": {
+                "precision": 0.8795986622073578,
+                "recall": 0.9392857142857143,
+                "f1-score": 0.9084628670120898,
+                "support": 280.0
+            },
+            "34.Brecciated mudstone": {
+                "precision": 0.953307392996109,
+                "recall": 0.875,
+                "f1-score": 0.9124767225325885,
+                "support": 280.0
+            },
+            "35.Shale fragments": {
+                "precision": 0.9745762711864406,
+                "recall": 0.8214285714285714,
+                "f1-score": 0.8914728682170543,
+                "support": 280.0
+            },
+            "accuracy": 0.9407142857142857,
+            "macro avg": {
+                "precision": 0.9426582190130806,
+                "recall": 0.9407142857142856,
+                "f1-score": 0.9407647620627068,
+                "support": 9800.0
+            },
+            "weighted avg": {
+                "precision": 0.9426582190130808,
+                "recall": 0.9407142857142857,
+                "f1-score": 0.9407647620627065,
+                "support": 9800.0
+            }
+        }
+    },
+    {
+        "C": 35,
+        "R": 32,
+        "L": 0.2,
+        "model_name": "EfficientNetB0_C-35_R-32_L-0.2_trainable-True_20260220-062814",
+        "best_val_accuracy": 0.9726,
+        "best_val_loss": 0.2229,
+        "epochs_run": 7,
+        "train_time_s": 1603.7,
+        "test_accuracy": 0.9444,
+        "test_loss": 0.3254,
+        "eval_time_s": 62.4,
+        "per_class_metric": {
+            "1.Red sandstone": {
+                "precision": 0.9722222222222222,
+                "recall": 1.0,
+                "f1-score": 0.9859154929577465,
+                "support": 280.0
+            },
+            "2.Light sandstone": {
+                "precision": 0.9752650176678446,
+                "recall": 0.9857142857142858,
+                "f1-score": 0.9804618117229129,
+                "support": 280.0
+            },
+            "3.Gray-green sandstone": {
+                "precision": 0.9049180327868852,
+                "recall": 0.9857142857142858,
+                "f1-score": 0.9435897435897436,
+                "support": 280.0
+            },
+            "4.Gray siltstone": {
+                "precision": 0.9487179487179487,
+                "recall": 0.925,
+                "f1-score": 0.9367088607594937,
+                "support": 280.0
+            },
+            "5.Brown siltstone": {
+                "precision": 0.9309090909090909,
+                "recall": 0.9142857142857143,
+                "f1-score": 0.9225225225225225,
+                "support": 280.0
+            },
+            "6.Carbonaceous siltstone": {
+                "precision": 0.9719298245614035,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.9805309734513274,
+                "support": 280.0
+            },
+            "7.Mudstone": {
+                "precision": 0.8896321070234113,
+                "recall": 0.95,
+                "f1-score": 0.918825561312608,
+                "support": 280.0
+            },
+            "8.Granite": {
+                "precision": 0.9781021897810219,
+                "recall": 0.9571428571428572,
+                "f1-score": 0.9675090252707581,
+                "support": 280.0
+            },
+            "9.Megacrystic granite": {
+                "precision": 0.9177631578947368,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9554794520547946,
+                "support": 280.0
+            },
+            "10.Monzogranite": {
+                "precision": 0.8710801393728222,
+                "recall": 0.8928571428571429,
+                "f1-score": 0.8818342151675485,
+                "support": 280.0
+            },
+            "11.Fine-grained granite": {
+                "precision": 0.9925650557620818,
+                "recall": 0.9535714285714286,
+                "f1-score": 0.9726775956284153,
+                "support": 280.0
+            },
+            "12.Pegmatite": {
+                "precision": 0.9344827586206896,
+                "recall": 0.9678571428571429,
+                "f1-score": 0.9508771929824561,
+                "support": 280.0
+            },
+            "13.Basalt": {
+                "precision": 0.9877551020408163,
+                "recall": 0.8642857142857143,
+                "f1-score": 0.9219047619047619,
+                "support": 280.0
+            },
+            "14.Fine-grained basalt": {
+                "precision": 0.9856115107913669,
+                "recall": 0.9785714285714285,
+                "f1-score": 0.982078853046595,
+                "support": 280.0
+            },
+            "15.Gabbro": {
+                "precision": 0.9770114942528736,
+                "recall": 0.9107142857142857,
+                "f1-score": 0.9426987060998152,
+                "support": 280.0
+            },
+            "16.Dolerite": {
+                "precision": 0.978021978021978,
+                "recall": 0.9535714285714286,
+                "f1-score": 0.9656419529837251,
+                "support": 280.0
+            },
+            "17.White marble": {
+                "precision": 0.9360902255639098,
+                "recall": 0.8892857142857142,
+                "f1-score": 0.9120879120879121,
+                "support": 280.0
+            },
+            "18.Blue marble": {
+                "precision": 0.9550173010380623,
+                "recall": 0.9857142857142858,
+                "f1-score": 0.9701230228471002,
+                "support": 280.0
+            },
+            "19.Dolomite": {
+                "precision": 0.9891304347826086,
+                "recall": 0.975,
+                "f1-score": 0.9820143884892086,
+                "support": 280.0
+            },
+            "20.Black Shale": {
+                "precision": 0.9655172413793104,
+                "recall": 1.0,
+                "f1-score": 0.9824561403508771,
+                "support": 280.0
+            },
+            "21.Red shale": {
+                "precision": 0.8769716088328076,
+                "recall": 0.9928571428571429,
+                "f1-score": 0.931323283082077,
+                "support": 280.0
+            },
+            "22.Dark green calc-silicate": {
+                "precision": 0.9703703703703703,
+                "recall": 0.9357142857142857,
+                "f1-score": 0.9527272727272728,
+                "support": 280.0
+            },
+            "23.Brown calc-silicate": {
+                "precision": 0.958041958041958,
+                "recall": 0.9785714285714285,
+                "f1-score": 0.9681978798586572,
+                "support": 280.0
+            },
+            "24.Skarn": {
+                "precision": 0.9494584837545126,
+                "recall": 0.9392857142857143,
+                "f1-score": 0.9443447037701975,
+                "support": 280.0
+            },
+            "25.Red-brown dacite": {
+                "precision": 0.8996763754045307,
+                "recall": 0.9928571428571429,
+                "f1-score": 0.9439728353140917,
+                "support": 280.0
+            },
+            "26.Black dacite": {
+                "precision": 0.9444444444444444,
+                "recall": 0.9107142857142857,
+                "f1-score": 0.9272727272727272,
+                "support": 280.0
+            },
+            "27.Rhyolite": {
+                "precision": 0.950354609929078,
+                "recall": 0.9571428571428572,
+                "f1-score": 0.9537366548042705,
+                "support": 280.0
+            },
+            "28.Banded iron formation": {
+                "precision": 0.9596412556053812,
+                "recall": 0.7642857142857142,
+                "f1-score": 0.8508946322067594,
+                "support": 280.0
+            },
+            "29.Hematite breccia": {
+                "precision": 0.8956228956228957,
+                "recall": 0.95,
+                "f1-score": 0.9220103986135182,
+                "support": 280.0
+            },
+            "30.Altered breccia": {
+                "precision": 0.9543859649122807,
+                "recall": 0.9714285714285714,
+                "f1-score": 0.9628318584070796,
+                "support": 280.0
+            },
+            "31.Schist": {
+                "precision": 0.9658119658119658,
+                "recall": 0.8071428571428572,
+                "f1-score": 0.8793774319066148,
+                "support": 280.0
+            },
+            "32.Gneiss": {
+                "precision": 0.9858657243816255,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9911190053285968,
+                "support": 280.0
+            },
+            "33.Porphyry": {
+                "precision": 0.8364197530864198,
+                "recall": 0.9678571428571429,
+                "f1-score": 0.8973509933774835,
+                "support": 280.0
+            },
+            "34.Brecciated mudstone": {
+                "precision": 0.9619771863117871,
+                "recall": 0.9035714285714286,
+                "f1-score": 0.9318600368324125,
+                "support": 280.0
+            },
+            "35.Shale fragments": {
+                "precision": 0.9444444444444444,
+                "recall": 0.9107142857142857,
+                "f1-score": 0.9272727272727272,
+                "support": 280.0
+            },
+            "accuracy": 0.9443877551020409,
+            "macro avg": {
+                "precision": 0.9461494249755883,
+                "recall": 0.9443877551020409,
+                "f1-score": 0.9440065893144233,
+                "support": 9800.0
+            },
+            "weighted avg": {
+                "precision": 0.9461494249755883,
+                "recall": 0.9443877551020409,
+                "f1-score": 0.944006589314423,
+                "support": 9800.0
+            }
+        }
+    },
+    {
+        "C": 35,
+        "R": 32,
+        "L": 0.3,
+        "model_name": "EfficientNetB0_C-35_R-32_L-0.3_trainable-True_20260220-065509",
+        "best_val_accuracy": 0.9793,
+        "best_val_loss": 0.1831,
+        "epochs_run": 16,
+        "train_time_s": 3264.8,
+        "test_accuracy": 0.9565,
+        "test_loss": 0.2765,
+        "eval_time_s": 61.5,
+        "per_class_metric": {
+            "1.Red sandstone": {
+                "precision": 0.99644128113879,
+                "recall": 1.0,
+                "f1-score": 0.9982174688057041,
+                "support": 280.0
+            },
+            "2.Light sandstone": {
+                "precision": 0.996309963099631,
+                "recall": 0.9642857142857143,
+                "f1-score": 0.9800362976406534,
+                "support": 280.0
+            },
+            "3.Gray-green sandstone": {
+                "precision": 0.9774436090225563,
+                "recall": 0.9285714285714286,
+                "f1-score": 0.9523809523809523,
+                "support": 280.0
+            },
+            "4.Gray siltstone": {
+                "precision": 0.9803149606299213,
+                "recall": 0.8892857142857142,
+                "f1-score": 0.9325842696629213,
+                "support": 280.0
+            },
+            "5.Brown siltstone": {
+                "precision": 0.974169741697417,
+                "recall": 0.9428571428571428,
+                "f1-score": 0.9582577132486388,
+                "support": 280.0
+            },
+            "6.Carbonaceous siltstone": {
+                "precision": 0.9238410596026491,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9587628865979382,
+                "support": 280.0
+            },
+            "7.Mudstone": {
+                "precision": 0.9036544850498339,
+                "recall": 0.9714285714285714,
+                "f1-score": 0.9363166953528399,
+                "support": 280.0
+            },
+            "8.Granite": {
+                "precision": 0.989247311827957,
+                "recall": 0.9857142857142858,
+                "f1-score": 0.9874776386404294,
+                "support": 280.0
+            },
+            "9.Megacrystic granite": {
+                "precision": 0.9891304347826086,
+                "recall": 0.975,
+                "f1-score": 0.9820143884892086,
+                "support": 280.0
+            },
+            "10.Monzogranite": {
+                "precision": 0.952,
+                "recall": 0.85,
+                "f1-score": 0.8981132075471698,
+                "support": 280.0
+            },
+            "11.Fine-grained granite": {
+                "precision": 1.0,
+                "recall": 0.9785714285714285,
+                "f1-score": 0.9891696750902527,
+                "support": 280.0
+            },
+            "12.Pegmatite": {
+                "precision": 0.9853479853479854,
+                "recall": 0.9607142857142857,
+                "f1-score": 0.972875226039783,
+                "support": 280.0
+            },
+            "13.Basalt": {
+                "precision": 0.9609929078014184,
+                "recall": 0.9678571428571429,
+                "f1-score": 0.9644128113879004,
+                "support": 280.0
+            },
+            "14.Fine-grained basalt": {
+                "precision": 0.9928825622775801,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9946524064171123,
+                "support": 280.0
+            },
+            "15.Gabbro": {
+                "precision": 0.91,
+                "recall": 0.975,
+                "f1-score": 0.9413793103448276,
+                "support": 280.0
+            },
+            "16.Dolerite": {
+                "precision": 0.9249146757679181,
+                "recall": 0.9678571428571429,
+                "f1-score": 0.9458987783595113,
+                "support": 280.0
+            },
+            "17.White marble": {
+                "precision": 0.916083916083916,
+                "recall": 0.9357142857142857,
+                "f1-score": 0.9257950530035336,
+                "support": 280.0
+            },
+            "18.Blue marble": {
+                "precision": 0.9855072463768116,
+                "recall": 0.9714285714285714,
+                "f1-score": 0.9784172661870504,
+                "support": 280.0
+            },
+            "19.Dolomite": {
+                "precision": 0.9782608695652174,
+                "recall": 0.9642857142857143,
+                "f1-score": 0.9712230215827338,
+                "support": 280.0
+            },
+            "20.Black Shale": {
+                "precision": 1.0,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.9946140035906643,
+                "support": 280.0
+            },
+            "21.Red shale": {
+                "precision": 0.9548611111111112,
+                "recall": 0.9821428571428571,
+                "f1-score": 0.9683098591549296,
+                "support": 280.0
+            },
+            "22.Dark green calc-silicate": {
+                "precision": 0.9819494584837545,
+                "recall": 0.9714285714285714,
+                "f1-score": 0.9766606822262118,
+                "support": 280.0
+            },
+            "23.Brown calc-silicate": {
+                "precision": 0.9854014598540146,
+                "recall": 0.9642857142857143,
+                "f1-score": 0.9747292418772563,
+                "support": 280.0
+            },
+            "24.Skarn": {
+                "precision": 0.9695817490494296,
+                "recall": 0.9107142857142857,
+                "f1-score": 0.9392265193370166,
+                "support": 280.0
+            },
+            "25.Red-brown dacite": {
+                "precision": 0.9887640449438202,
+                "recall": 0.9428571428571428,
+                "f1-score": 0.9652650822669104,
+                "support": 280.0
+            },
+            "26.Black dacite": {
+                "precision": 0.9422382671480144,
+                "recall": 0.9321428571428572,
+                "f1-score": 0.9371633752244165,
+                "support": 280.0
+            },
+            "27.Rhyolite": {
+                "precision": 0.9285714285714286,
+                "recall": 0.975,
+                "f1-score": 0.9512195121951219,
+                "support": 280.0
+            },
+            "28.Banded iron formation": {
+                "precision": 0.8885017421602788,
+                "recall": 0.9107142857142857,
+                "f1-score": 0.8994708994708994,
+                "support": 280.0
+            },
+            "29.Hematite breccia": {
+                "precision": 0.9638989169675091,
+                "recall": 0.9535714285714286,
+                "f1-score": 0.9587073608617595,
+                "support": 280.0
+            },
+            "30.Altered breccia": {
+                "precision": 0.9484536082474226,
+                "recall": 0.9857142857142858,
+                "f1-score": 0.9667250437828371,
+                "support": 280.0
+            },
+            "31.Schist": {
+                "precision": 0.8827361563517915,
+                "recall": 0.9678571428571429,
+                "f1-score": 0.9233390119250426,
+                "support": 280.0
+            },
+            "32.Gneiss": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 280.0
+            },
+            "33.Porphyry": {
+                "precision": 0.9025270758122743,
+                "recall": 0.8928571428571429,
+                "f1-score": 0.8976660682226212,
+                "support": 280.0
+            },
+            "34.Brecciated mudstone": {
+                "precision": 0.9316546762589928,
+                "recall": 0.925,
+                "f1-score": 0.9283154121863799,
+                "support": 280.0
+            },
+            "35.Shale fragments": {
+                "precision": 0.9081632653061225,
+                "recall": 0.9535714285714286,
+                "f1-score": 0.9303135888501742,
+                "support": 280.0
+            },
+            "accuracy": 0.956530612244898,
+            "macro avg": {
+                "precision": 0.9575384562953764,
+                "recall": 0.9565306122448979,
+                "f1-score": 0.9565631636557544,
+                "support": 9800.0
+            },
+            "weighted avg": {
+                "precision": 0.9575384562953764,
+                "recall": 0.956530612244898,
+                "f1-score": 0.9565631636557543,
+                "support": 9800.0
+            }
+        }
+    },
+    {
+        "C": 35,
+        "R": 32,
+        "L": 0.4,
+        "model_name": "EfficientNetB0_C-35_R-32_L-0.4_trainable-True_20260220-074948",
+        "best_val_accuracy": 0.9745,
+        "best_val_loss": 0.2236,
+        "epochs_run": 9,
+        "train_time_s": 2267.6,
+        "test_accuracy": 0.949,
+        "test_loss": 0.3176,
+        "eval_time_s": 60.5,
+        "per_class_metric": {
+            "1.Red sandstone": {
+                "precision": 0.9655172413793104,
+                "recall": 1.0,
+                "f1-score": 0.9824561403508771,
+                "support": 280.0
+            },
+            "2.Light sandstone": {
+                "precision": 0.9963235294117647,
+                "recall": 0.9678571428571429,
+                "f1-score": 0.9818840579710145,
+                "support": 280.0
+            },
+            "3.Gray-green sandstone": {
+                "precision": 0.8480243161094225,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.916256157635468,
+                "support": 280.0
+            },
+            "4.Gray siltstone": {
+                "precision": 0.9838709677419355,
+                "recall": 0.8714285714285714,
+                "f1-score": 0.9242424242424242,
+                "support": 280.0
+            },
+            "5.Brown siltstone": {
+                "precision": 0.974169741697417,
+                "recall": 0.9428571428571428,
+                "f1-score": 0.9582577132486388,
+                "support": 280.0
+            },
+            "6.Carbonaceous siltstone": {
+                "precision": 0.9962546816479401,
+                "recall": 0.95,
+                "f1-score": 0.9725776965265083,
+                "support": 280.0
+            },
+            "7.Mudstone": {
+                "precision": 0.9884615384615385,
+                "recall": 0.9178571428571428,
+                "f1-score": 0.9518518518518518,
+                "support": 280.0
+            },
+            "8.Granite": {
+                "precision": 0.9457627118644067,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9704347826086956,
+                "support": 280.0
+            },
+            "9.Megacrystic granite": {
+                "precision": 0.9618055555555556,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.9753521126760564,
+                "support": 280.0
+            },
+            "10.Monzogranite": {
+                "precision": 0.927536231884058,
+                "recall": 0.9142857142857143,
+                "f1-score": 0.920863309352518,
+                "support": 280.0
+            },
+            "11.Fine-grained granite": {
+                "precision": 0.9962962962962963,
+                "recall": 0.9607142857142857,
+                "f1-score": 0.9781818181818182,
+                "support": 280.0
+            },
+            "12.Pegmatite": {
+                "precision": 0.9438596491228071,
+                "recall": 0.9607142857142857,
+                "f1-score": 0.952212389380531,
+                "support": 280.0
+            },
+            "13.Basalt": {
+                "precision": 0.9693486590038314,
+                "recall": 0.9035714285714286,
+                "f1-score": 0.9353049907578558,
+                "support": 280.0
+            },
+            "14.Fine-grained basalt": {
+                "precision": 0.9616724738675958,
+                "recall": 0.9857142857142858,
+                "f1-score": 0.9735449735449735,
+                "support": 280.0
+            },
+            "15.Gabbro": {
+                "precision": 0.8303030303030303,
+                "recall": 0.9785714285714285,
+                "f1-score": 0.898360655737705,
+                "support": 280.0
+            },
+            "16.Dolerite": {
+                "precision": 0.9347826086956522,
+                "recall": 0.9214285714285714,
+                "f1-score": 0.9280575539568345,
+                "support": 280.0
+            },
+            "17.White marble": {
+                "precision": 0.9047619047619048,
+                "recall": 0.95,
+                "f1-score": 0.926829268292683,
+                "support": 280.0
+            },
+            "18.Blue marble": {
+                "precision": 0.9786476868327402,
+                "recall": 0.9821428571428571,
+                "f1-score": 0.9803921568627451,
+                "support": 280.0
+            },
+            "19.Dolomite": {
+                "precision": 0.981549815498155,
+                "recall": 0.95,
+                "f1-score": 0.9655172413793104,
+                "support": 280.0
+            },
+            "20.Black Shale": {
+                "precision": 0.9859154929577465,
+                "recall": 1.0,
+                "f1-score": 0.9929078014184397,
+                "support": 280.0
+            },
+            "21.Red shale": {
+                "precision": 0.9851301115241635,
+                "recall": 0.9464285714285714,
+                "f1-score": 0.9653916211293261,
+                "support": 280.0
+            },
+            "22.Dark green calc-silicate": {
+                "precision": 0.9822695035460993,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.9857651245551602,
+                "support": 280.0
+            },
+            "23.Brown calc-silicate": {
+                "precision": 0.9324324324324325,
+                "recall": 0.9857142857142858,
+                "f1-score": 0.9583333333333334,
+                "support": 280.0
+            },
+            "24.Skarn": {
+                "precision": 0.8853503184713376,
+                "recall": 0.9928571428571429,
+                "f1-score": 0.936026936026936,
+                "support": 280.0
+            },
+            "25.Red-brown dacite": {
+                "precision": 0.9927007299270073,
+                "recall": 0.9714285714285714,
+                "f1-score": 0.9819494584837545,
+                "support": 280.0
+            },
+            "26.Black dacite": {
+                "precision": 0.9602888086642599,
+                "recall": 0.95,
+                "f1-score": 0.9551166965888689,
+                "support": 280.0
+            },
+            "27.Rhyolite": {
+                "precision": 0.9855595667870036,
+                "recall": 0.975,
+                "f1-score": 0.9802513464991023,
+                "support": 280.0
+            },
+            "28.Banded iron formation": {
+                "precision": 0.8863636363636364,
+                "recall": 0.8357142857142857,
+                "f1-score": 0.8602941176470589,
+                "support": 280.0
+            },
+            "29.Hematite breccia": {
+                "precision": 0.9017543859649123,
+                "recall": 0.9178571428571428,
+                "f1-score": 0.9097345132743363,
+                "support": 280.0
+            },
+            "30.Altered breccia": {
+                "precision": 0.9922178988326849,
+                "recall": 0.9107142857142857,
+                "f1-score": 0.9497206703910615,
+                "support": 280.0
+            },
+            "31.Schist": {
+                "precision": 0.937984496124031,
+                "recall": 0.8642857142857143,
+                "f1-score": 0.8996282527881041,
+                "support": 280.0
+            },
+            "32.Gneiss": {
+                "precision": 0.99644128113879,
+                "recall": 1.0,
+                "f1-score": 0.9982174688057041,
+                "support": 280.0
+            },
+            "33.Porphyry": {
+                "precision": 0.8668941979522184,
+                "recall": 0.9071428571428571,
+                "f1-score": 0.8865619546247818,
+                "support": 280.0
+            },
+            "34.Brecciated mudstone": {
+                "precision": 0.9578544061302682,
+                "recall": 0.8928571428571429,
+                "f1-score": 0.9242144177449169,
+                "support": 280.0
+            },
+            "35.Shale fragments": {
+                "precision": 0.9458483754512635,
+                "recall": 0.9357142857142857,
+                "f1-score": 0.940754039497307,
+                "support": 280.0
+            },
+            "accuracy": 0.9489795918367347,
+            "macro avg": {
+                "precision": 0.9509701223543776,
+                "recall": 0.9489795918367347,
+                "f1-score": 0.9490698584961913,
+                "support": 9800.0
+            },
+            "weighted avg": {
+                "precision": 0.9509701223543776,
+                "recall": 0.9489795918367347,
+                "f1-score": 0.9490698584961915,
+                "support": 9800.0
+            }
+        }
+    },
+    {
+        "C": 35,
+        "R": 128,
+        "L": 0.0,
+        "model_name": "EfficientNetB0_C-35_R-128_L-0.0_trainable-True_20260220-082750",
+        "best_val_accuracy": 0.9929,
+        "best_val_loss": 0.1491,
+        "epochs_run": 9,
+        "train_time_s": 1931.5,
+        "test_accuracy": 0.9302,
+        "test_loss": 0.4518,
+        "eval_time_s": 62.3,
+        "per_class_metric": {
+            "1.Red sandstone": {
+                "precision": 0.9959839357429718,
+                "recall": 0.8857142857142857,
+                "f1-score": 0.9376181474480151,
+                "support": 280.0
+            },
+            "2.Light sandstone": {
+                "precision": 1.0,
+                "recall": 0.8964285714285715,
+                "f1-score": 0.9453860640301318,
+                "support": 280.0
+            },
+            "3.Gray-green sandstone": {
+                "precision": 0.9964285714285714,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9964285714285714,
+                "support": 280.0
+            },
+            "4.Gray siltstone": {
+                "precision": 0.8849840255591054,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.9342327150084317,
+                "support": 280.0
+            },
+            "5.Brown siltstone": {
+                "precision": 0.9917695473251029,
+                "recall": 0.8607142857142858,
+                "f1-score": 0.9216061185468452,
+                "support": 280.0
+            },
+            "6.Carbonaceous siltstone": {
+                "precision": 0.9925093632958801,
+                "recall": 0.9464285714285714,
+                "f1-score": 0.9689213893967094,
+                "support": 280.0
+            },
+            "7.Mudstone": {
+                "precision": 0.9959677419354839,
+                "recall": 0.8821428571428571,
+                "f1-score": 0.9356060606060606,
+                "support": 280.0
+            },
+            "8.Granite": {
+                "precision": 0.9919028340080972,
+                "recall": 0.875,
+                "f1-score": 0.9297912713472486,
+                "support": 280.0
+            },
+            "9.Megacrystic granite": {
+                "precision": 0.9312714776632303,
+                "recall": 0.9678571428571429,
+                "f1-score": 0.9492119089316988,
+                "support": 280.0
+            },
+            "10.Monzogranite": {
+                "precision": 0.9960474308300395,
+                "recall": 0.9,
+                "f1-score": 0.9455909943714822,
+                "support": 280.0
+            },
+            "11.Fine-grained granite": {
+                "precision": 1.0,
+                "recall": 0.9428571428571428,
+                "f1-score": 0.9705882352941176,
+                "support": 280.0
+            },
+            "12.Pegmatite": {
+                "precision": 0.996031746031746,
+                "recall": 0.8964285714285715,
+                "f1-score": 0.943609022556391,
+                "support": 280.0
+            },
+            "13.Basalt": {
+                "precision": 0.6188340807174888,
+                "recall": 0.9857142857142858,
+                "f1-score": 0.7603305785123967,
+                "support": 280.0
+            },
+            "14.Fine-grained basalt": {
+                "precision": 0.8308605341246291,
+                "recall": 1.0,
+                "f1-score": 0.9076175040518638,
+                "support": 280.0
+            },
+            "15.Gabbro": {
+                "precision": 0.9263157894736842,
+                "recall": 0.9428571428571428,
+                "f1-score": 0.9345132743362832,
+                "support": 280.0
+            },
+            "16.Dolerite": {
+                "precision": 0.9686411149825784,
+                "recall": 0.9928571428571429,
+                "f1-score": 0.9805996472663139,
+                "support": 280.0
+            },
+            "17.White marble": {
+                "precision": 0.975609756097561,
+                "recall": 0.8571428571428571,
+                "f1-score": 0.9125475285171103,
+                "support": 280.0
+            },
+            "18.Blue marble": {
+                "precision": 1.0,
+                "recall": 0.9,
+                "f1-score": 0.9473684210526315,
+                "support": 280.0
+            },
+            "19.Dolomite": {
+                "precision": 0.8647798742138365,
+                "recall": 0.9821428571428571,
+                "f1-score": 0.919732441471572,
+                "support": 280.0
+            },
+            "20.Black Shale": {
+                "precision": 0.9961977186311787,
+                "recall": 0.9357142857142857,
+                "f1-score": 0.9650092081031307,
+                "support": 280.0
+            },
+            "21.Red shale": {
+                "precision": 0.9042904290429042,
+                "recall": 0.9785714285714285,
+                "f1-score": 0.9399656946826758,
+                "support": 280.0
+            },
+            "22.Dark green calc-silicate": {
+                "precision": 0.9927272727272727,
+                "recall": 0.975,
+                "f1-score": 0.9837837837837838,
+                "support": 280.0
+            },
+            "23.Brown calc-silicate": {
+                "precision": 0.9259259259259259,
+                "recall": 0.9821428571428571,
+                "f1-score": 0.9532062391681109,
+                "support": 280.0
+            },
+            "24.Skarn": {
+                "precision": 0.7799442896935933,
+                "recall": 1.0,
+                "f1-score": 0.8763693270735524,
+                "support": 280.0
+            },
+            "25.Red-brown dacite": {
+                "precision": 0.9963898916967509,
+                "recall": 0.9857142857142858,
+                "f1-score": 0.9910233393177738,
+                "support": 280.0
+            },
+            "26.Black dacite": {
+                "precision": 0.9846153846153847,
+                "recall": 0.9142857142857143,
+                "f1-score": 0.9481481481481482,
+                "support": 280.0
+            },
+            "27.Rhyolite": {
+                "precision": 1.0,
+                "recall": 0.9178571428571428,
+                "f1-score": 0.957169459962756,
+                "support": 280.0
+            },
+            "28.Banded iron formation": {
+                "precision": 0.723463687150838,
+                "recall": 0.925,
+                "f1-score": 0.8119122257053292,
+                "support": 280.0
+            },
+            "29.Hematite breccia": {
+                "precision": 0.928030303030303,
+                "recall": 0.875,
+                "f1-score": 0.9007352941176471,
+                "support": 280.0
+            },
+            "30.Altered breccia": {
+                "precision": 0.9883720930232558,
+                "recall": 0.9107142857142857,
+                "f1-score": 0.9479553903345725,
+                "support": 280.0
+            },
+            "31.Schist": {
+                "precision": 0.9953271028037384,
+                "recall": 0.7607142857142857,
+                "f1-score": 0.8623481781376519,
+                "support": 280.0
+            },
+            "32.Gneiss": {
+                "precision": 0.9714285714285714,
+                "recall": 0.9714285714285714,
+                "f1-score": 0.9714285714285714,
+                "support": 280.0
+            },
+            "33.Porphyry": {
+                "precision": 0.9288389513108615,
+                "recall": 0.8857142857142857,
+                "f1-score": 0.906764168190128,
+                "support": 280.0
+            },
+            "34.Brecciated mudstone": {
+                "precision": 0.9845559845559846,
+                "recall": 0.9107142857142857,
+                "f1-score": 0.9461966604823747,
+                "support": 280.0
+            },
+            "35.Shale fragments": {
+                "precision": 0.9285714285714286,
+                "recall": 0.9285714285714286,
+                "f1-score": 0.9285714285714286,
+                "support": 280.0
+            },
+            "accuracy": 0.9302040816326531,
+            "macro avg": {
+                "precision": 0.9424747673610856,
+                "recall": 0.930204081632653,
+                "f1-score": 0.9323396288966145,
+                "support": 9800.0
+            },
+            "weighted avg": {
+                "precision": 0.9424747673610856,
+                "recall": 0.9302040816326531,
+                "f1-score": 0.9323396288966147,
+                "support": 9800.0
+            }
+        }
+    },
+    {
+        "C": 35,
+        "R": 128,
+        "L": 0.1,
+        "model_name": "EfficientNetB0_C-35_R-128_L-0.1_trainable-True_20260220-090015",
+        "best_val_accuracy": 0.9921,
+        "best_val_loss": 0.1541,
+        "epochs_run": 6,
+        "train_time_s": 1376.7,
+        "test_accuracy": 0.981,
+        "test_loss": 0.1971,
+        "eval_time_s": 62.4,
+        "per_class_metric": {
+            "1.Red sandstone": {
+                "precision": 1.0,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.998211091234347,
+                "support": 280.0
+            },
+            "2.Light sandstone": {
+                "precision": 0.9857142857142858,
+                "recall": 0.9857142857142858,
+                "f1-score": 0.9857142857142858,
+                "support": 280.0
+            },
+            "3.Gray-green sandstone": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 280.0
+            },
+            "4.Gray siltstone": {
+                "precision": 0.9457627118644067,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9704347826086956,
+                "support": 280.0
+            },
+            "5.Brown siltstone": {
+                "precision": 0.9963503649635036,
+                "recall": 0.975,
+                "f1-score": 0.9855595667870036,
+                "support": 280.0
+            },
+            "6.Carbonaceous siltstone": {
+                "precision": 0.9928571428571429,
+                "recall": 0.9928571428571429,
+                "f1-score": 0.9928571428571429,
+                "support": 280.0
+            },
+            "7.Mudstone": {
+                "precision": 1.0,
+                "recall": 0.925,
+                "f1-score": 0.961038961038961,
+                "support": 280.0
+            },
+            "8.Granite": {
+                "precision": 0.9963369963369964,
+                "recall": 0.9714285714285714,
+                "f1-score": 0.9837251356238698,
+                "support": 280.0
+            },
+            "9.Megacrystic granite": {
+                "precision": 0.9790209790209791,
+                "recall": 1.0,
+                "f1-score": 0.9893992932862191,
+                "support": 280.0
+            },
+            "10.Monzogranite": {
+                "precision": 0.9716312056737588,
+                "recall": 0.9785714285714285,
+                "f1-score": 0.9750889679715302,
+                "support": 280.0
+            },
+            "11.Fine-grained granite": {
+                "precision": 1.0,
+                "recall": 0.9928571428571429,
+                "f1-score": 0.996415770609319,
+                "support": 280.0
+            },
+            "12.Pegmatite": {
+                "precision": 0.9964285714285714,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9964285714285714,
+                "support": 280.0
+            },
+            "13.Basalt": {
+                "precision": 0.9686411149825784,
+                "recall": 0.9928571428571429,
+                "f1-score": 0.9805996472663139,
+                "support": 280.0
+            },
+            "14.Fine-grained basalt": {
+                "precision": 0.9859154929577465,
+                "recall": 1.0,
+                "f1-score": 0.9929078014184397,
+                "support": 280.0
+            },
+            "15.Gabbro": {
+                "precision": 0.956989247311828,
+                "recall": 0.9535714285714286,
+                "f1-score": 0.9552772808586762,
+                "support": 280.0
+            },
+            "16.Dolerite": {
+                "precision": 0.9928825622775801,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9946524064171123,
+                "support": 280.0
+            },
+            "17.White marble": {
+                "precision": 0.9114754098360656,
+                "recall": 0.9928571428571429,
+                "f1-score": 0.9504273504273504,
+                "support": 280.0
+            },
+            "18.Blue marble": {
+                "precision": 0.9857651245551602,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.9875222816399287,
+                "support": 280.0
+            },
+            "19.Dolomite": {
+                "precision": 1.0,
+                "recall": 0.9857142857142858,
+                "f1-score": 0.9928057553956835,
+                "support": 280.0
+            },
+            "20.Black Shale": {
+                "precision": 1.0,
+                "recall": 0.9821428571428571,
+                "f1-score": 0.990990990990991,
+                "support": 280.0
+            },
+            "21.Red shale": {
+                "precision": 0.9457627118644067,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9704347826086956,
+                "support": 280.0
+            },
+            "22.Dark green calc-silicate": {
+                "precision": 0.9858657243816255,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9911190053285968,
+                "support": 280.0
+            },
+            "23.Brown calc-silicate": {
+                "precision": 0.9964285714285714,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9964285714285714,
+                "support": 280.0
+            },
+            "24.Skarn": {
+                "precision": 0.9717314487632509,
+                "recall": 0.9821428571428571,
+                "f1-score": 0.9769094138543517,
+                "support": 280.0
+            },
+            "25.Red-brown dacite": {
+                "precision": 0.9928825622775801,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9946524064171123,
+                "support": 280.0
+            },
+            "26.Black dacite": {
+                "precision": 0.9924242424242424,
+                "recall": 0.9357142857142857,
+                "f1-score": 0.9632352941176471,
+                "support": 280.0
+            },
+            "27.Rhyolite": {
+                "precision": 0.9789473684210527,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9876106194690265,
+                "support": 280.0
+            },
+            "28.Banded iron formation": {
+                "precision": 0.9431818181818182,
+                "recall": 0.8892857142857142,
+                "f1-score": 0.9154411764705882,
+                "support": 280.0
+            },
+            "29.Hematite breccia": {
+                "precision": 0.9891696750902527,
+                "recall": 0.9785714285714285,
+                "f1-score": 0.9838420107719928,
+                "support": 280.0
+            },
+            "30.Altered breccia": {
+                "precision": 1.0,
+                "recall": 0.975,
+                "f1-score": 0.9873417721518988,
+                "support": 280.0
+            },
+            "31.Schist": {
+                "precision": 0.9926739926739927,
+                "recall": 0.9678571428571429,
+                "f1-score": 0.9801084990958409,
+                "support": 280.0
+            },
+            "32.Gneiss": {
+                "precision": 0.9928825622775801,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9946524064171123,
+                "support": 280.0
+            },
+            "33.Porphyry": {
+                "precision": 0.910958904109589,
+                "recall": 0.95,
+                "f1-score": 0.9300699300699301,
+                "support": 280.0
+            },
+            "34.Brecciated mudstone": {
+                "precision": 0.9963768115942029,
+                "recall": 0.9821428571428571,
+                "f1-score": 0.9892086330935251,
+                "support": 280.0
+            },
+            "35.Shale fragments": {
+                "precision": 0.989247311827957,
+                "recall": 0.9857142857142858,
+                "f1-score": 0.9874776386404294,
+                "support": 280.0
+            },
+            "accuracy": 0.9808163265306122,
+            "macro avg": {
+                "precision": 0.9812658547170494,
+                "recall": 0.9808163265306122,
+                "f1-score": 0.9808168355288504,
+                "support": 9800.0
+            },
+            "weighted avg": {
+                "precision": 0.9812658547170495,
+                "recall": 0.9808163265306122,
+                "f1-score": 0.9808168355288502,
+                "support": 9800.0
+            }
+        }
+    },
+    {
+        "C": 35,
+        "R": 128,
+        "L": 0.2,
+        "model_name": "EfficientNetB0_C-35_R-128_L-0.2_trainable-True_20260220-092325",
+        "best_val_accuracy": 0.9921,
+        "best_val_loss": 0.1474,
+        "epochs_run": 11,
+        "train_time_s": 2287.0,
+        "test_accuracy": 0.9836,
+        "test_loss": 0.1776,
+        "eval_time_s": 63.5,
+        "per_class_metric": {
+            "1.Red sandstone": {
+                "precision": 0.99644128113879,
+                "recall": 1.0,
+                "f1-score": 0.9982174688057041,
+                "support": 280.0
+            },
+            "2.Light sandstone": {
+                "precision": 1.0,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.9946140035906643,
+                "support": 280.0
+            },
+            "3.Gray-green sandstone": {
+                "precision": 1.0,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.9946140035906643,
+                "support": 280.0
+            },
+            "4.Gray siltstone": {
+                "precision": 0.9685314685314685,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.9787985865724381,
+                "support": 280.0
+            },
+            "5.Brown siltstone": {
+                "precision": 0.9927797833935018,
+                "recall": 0.9821428571428571,
+                "f1-score": 0.9874326750448833,
+                "support": 280.0
+            },
+            "6.Carbonaceous siltstone": {
+                "precision": 0.9928571428571429,
+                "recall": 0.9928571428571429,
+                "f1-score": 0.9928571428571429,
+                "support": 280.0
+            },
+            "7.Mudstone": {
+                "precision": 0.9891304347826086,
+                "recall": 0.975,
+                "f1-score": 0.9820143884892086,
+                "support": 280.0
+            },
+            "8.Granite": {
+                "precision": 0.9963898916967509,
+                "recall": 0.9857142857142858,
+                "f1-score": 0.9910233393177738,
+                "support": 280.0
+            },
+            "9.Megacrystic granite": {
+                "precision": 0.9788732394366197,
+                "recall": 0.9928571428571429,
+                "f1-score": 0.9858156028368794,
+                "support": 280.0
+            },
+            "10.Monzogranite": {
+                "precision": 0.958041958041958,
+                "recall": 0.9785714285714285,
+                "f1-score": 0.9681978798586572,
+                "support": 280.0
+            },
+            "11.Fine-grained granite": {
+                "precision": 1.0,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.9946140035906643,
+                "support": 280.0
+            },
+            "12.Pegmatite": {
+                "precision": 1.0,
+                "recall": 0.9785714285714285,
+                "f1-score": 0.9891696750902527,
+                "support": 280.0
+            },
+            "13.Basalt": {
+                "precision": 0.9752650176678446,
+                "recall": 0.9857142857142858,
+                "f1-score": 0.9804618117229129,
+                "support": 280.0
+            },
+            "14.Fine-grained basalt": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 280.0
+            },
+            "15.Gabbro": {
+                "precision": 0.9744525547445255,
+                "recall": 0.9535714285714286,
+                "f1-score": 0.9638989169675091,
+                "support": 280.0
+            },
+            "16.Dolerite": {
+                "precision": 0.9929078014184397,
+                "recall": 1.0,
+                "f1-score": 0.99644128113879,
+                "support": 280.0
+            },
+            "17.White marble": {
+                "precision": 0.9210526315789473,
+                "recall": 1.0,
+                "f1-score": 0.958904109589041,
+                "support": 280.0
+            },
+            "18.Blue marble": {
+                "precision": 1.0,
+                "recall": 0.975,
+                "f1-score": 0.9873417721518988,
+                "support": 280.0
+            },
+            "19.Dolomite": {
+                "precision": 0.975609756097561,
+                "recall": 1.0,
+                "f1-score": 0.9876543209876543,
+                "support": 280.0
+            },
+            "20.Black Shale": {
+                "precision": 0.99644128113879,
+                "recall": 1.0,
+                "f1-score": 0.9982174688057041,
+                "support": 280.0
+            },
+            "21.Red shale": {
+                "precision": 0.9752650176678446,
+                "recall": 0.9857142857142858,
+                "f1-score": 0.9804618117229129,
+                "support": 280.0
+            },
+            "22.Dark green calc-silicate": {
+                "precision": 0.996415770609319,
+                "recall": 0.9928571428571429,
+                "f1-score": 0.9946332737030411,
+                "support": 280.0
+            },
+            "23.Brown calc-silicate": {
+                "precision": 0.99644128113879,
+                "recall": 1.0,
+                "f1-score": 0.9982174688057041,
+                "support": 280.0
+            },
+            "24.Skarn": {
+                "precision": 0.9822695035460993,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.9857651245551602,
+                "support": 280.0
+            },
+            "25.Red-brown dacite": {
+                "precision": 0.9963636363636363,
+                "recall": 0.9785714285714285,
+                "f1-score": 0.9873873873873874,
+                "support": 280.0
+            },
+            "26.Black dacite": {
+                "precision": 1.0,
+                "recall": 0.95,
+                "f1-score": 0.9743589743589743,
+                "support": 280.0
+            },
+            "27.Rhyolite": {
+                "precision": 1.0,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.998211091234347,
+                "support": 280.0
+            },
+            "28.Banded iron formation": {
+                "precision": 0.8926174496644296,
+                "recall": 0.95,
+                "f1-score": 0.9204152249134948,
+                "support": 280.0
+            },
+            "29.Hematite breccia": {
+                "precision": 0.9891696750902527,
+                "recall": 0.9785714285714285,
+                "f1-score": 0.9838420107719928,
+                "support": 280.0
+            },
+            "30.Altered breccia": {
+                "precision": 0.9790209790209791,
+                "recall": 1.0,
+                "f1-score": 0.9893992932862191,
+                "support": 280.0
+            },
+            "31.Schist": {
+                "precision": 0.9788732394366197,
+                "recall": 0.9928571428571429,
+                "f1-score": 0.9858156028368794,
+                "support": 280.0
+            },
+            "32.Gneiss": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 280.0
+            },
+            "33.Porphyry": {
+                "precision": 0.9511278195488722,
+                "recall": 0.9035714285714286,
+                "f1-score": 0.9267399267399268,
+                "support": 280.0
+            },
+            "34.Brecciated mudstone": {
+                "precision": 0.9925925925925926,
+                "recall": 0.9571428571428572,
+                "f1-score": 0.9745454545454545,
+                "support": 280.0
+            },
+            "35.Shale fragments": {
+                "precision": 0.9964028776978417,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.992831541218638,
+                "support": 280.0
+            },
+            "accuracy": 0.9834693877551021,
+            "macro avg": {
+                "precision": 0.9838666881400635,
+                "recall": 0.9834693877551021,
+                "f1-score": 0.9835117896311021,
+                "support": 9800.0
+            },
+            "weighted avg": {
+                "precision": 0.9838666881400634,
+                "recall": 0.9834693877551021,
+                "f1-score": 0.9835117896311022,
+                "support": 9800.0
+            }
+        }
+    },
+    {
+        "C": 35,
+        "R": 128,
+        "L": 0.3,
+        "model_name": "EfficientNetB0_C-35_R-128_L-0.3_trainable-True_20260221-112720",
+        "best_val_accuracy": 0.996,
+        "best_val_loss": 0.0941,
+        "epochs_run": 20,
+        "train_time_s": 4167.7,
+        "test_accuracy": 0.9837,
+        "test_loss": 0.1446,
+        "eval_time_s": 63.3,
+        "per_class_metric": {
+            "1.Red sandstone": {
+                "precision": 1.0,
+                "recall": 0.9928571428571429,
+                "f1-score": 0.996415770609319,
+                "support": 280.0
+            },
+            "2.Light sandstone": {
+                "precision": 0.9927797833935018,
+                "recall": 0.9821428571428571,
+                "f1-score": 0.9874326750448833,
+                "support": 280.0
+            },
+            "3.Gray-green sandstone": {
+                "precision": 0.996415770609319,
+                "recall": 0.9928571428571429,
+                "f1-score": 0.9946332737030411,
+                "support": 280.0
+            },
+            "4.Gray siltstone": {
+                "precision": 0.9717314487632509,
+                "recall": 0.9821428571428571,
+                "f1-score": 0.9769094138543517,
+                "support": 280.0
+            },
+            "5.Brown siltstone": {
+                "precision": 0.9857651245551602,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.9875222816399287,
+                "support": 280.0
+            },
+            "6.Carbonaceous siltstone": {
+                "precision": 0.9928825622775801,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9946524064171123,
+                "support": 280.0
+            },
+            "7.Mudstone": {
+                "precision": 0.9962825278810409,
+                "recall": 0.9571428571428572,
+                "f1-score": 0.97632058287796,
+                "support": 280.0
+            },
+            "8.Granite": {
+                "precision": 1.0,
+                "recall": 0.9821428571428571,
+                "f1-score": 0.990990990990991,
+                "support": 280.0
+            },
+            "9.Megacrystic granite": {
+                "precision": 0.9653979238754326,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9806678383128296,
+                "support": 280.0
+            },
+            "10.Monzogranite": {
+                "precision": 1.0,
+                "recall": 0.9464285714285714,
+                "f1-score": 0.9724770642201835,
+                "support": 280.0
+            },
+            "11.Fine-grained granite": {
+                "precision": 0.9893617021276596,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9928825622775801,
+                "support": 280.0
+            },
+            "12.Pegmatite": {
+                "precision": 1.0,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.9946140035906643,
+                "support": 280.0
+            },
+            "13.Basalt": {
+                "precision": 0.9686411149825784,
+                "recall": 0.9928571428571429,
+                "f1-score": 0.9805996472663139,
+                "support": 280.0
+            },
+            "14.Fine-grained basalt": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 280.0
+            },
+            "15.Gabbro": {
+                "precision": 0.9752650176678446,
+                "recall": 0.9857142857142858,
+                "f1-score": 0.9804618117229129,
+                "support": 280.0
+            },
+            "16.Dolerite": {
+                "precision": 1.0,
+                "recall": 0.9928571428571429,
+                "f1-score": 0.996415770609319,
+                "support": 280.0
+            },
+            "17.White marble": {
+                "precision": 0.9716312056737588,
+                "recall": 0.9785714285714285,
+                "f1-score": 0.9750889679715302,
+                "support": 280.0
+            },
+            "18.Blue marble": {
+                "precision": 1.0,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.9946140035906643,
+                "support": 280.0
+            },
+            "19.Dolomite": {
+                "precision": 0.9859154929577465,
+                "recall": 1.0,
+                "f1-score": 0.9929078014184397,
+                "support": 280.0
+            },
+            "20.Black Shale": {
+                "precision": 1.0,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.9946140035906643,
+                "support": 280.0
+            },
+            "21.Red shale": {
+                "precision": 0.9688581314878892,
+                "recall": 1.0,
+                "f1-score": 0.984182776801406,
+                "support": 280.0
+            },
+            "22.Dark green calc-silicate": {
+                "precision": 0.99644128113879,
+                "recall": 1.0,
+                "f1-score": 0.9982174688057041,
+                "support": 280.0
+            },
+            "23.Brown calc-silicate": {
+                "precision": 0.9928057553956835,
+                "recall": 0.9857142857142858,
+                "f1-score": 0.989247311827957,
+                "support": 280.0
+            },
+            "24.Skarn": {
+                "precision": 0.9621993127147767,
+                "recall": 1.0,
+                "f1-score": 0.9807355516637478,
+                "support": 280.0
+            },
+            "25.Red-brown dacite": {
+                "precision": 0.9964028776978417,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.992831541218638,
+                "support": 280.0
+            },
+            "26.Black dacite": {
+                "precision": 0.9964028776978417,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.992831541218638,
+                "support": 280.0
+            },
+            "27.Rhyolite": {
+                "precision": 1.0,
+                "recall": 0.9785714285714285,
+                "f1-score": 0.9891696750902527,
+                "support": 280.0
+            },
+            "28.Banded iron formation": {
+                "precision": 0.8664495114006515,
+                "recall": 0.95,
+                "f1-score": 0.9063032367972743,
+                "support": 280.0
+            },
+            "29.Hematite breccia": {
+                "precision": 0.9892086330935251,
+                "recall": 0.9821428571428571,
+                "f1-score": 0.985663082437276,
+                "support": 280.0
+            },
+            "30.Altered breccia": {
+                "precision": 0.9893992932862191,
+                "recall": 1.0,
+                "f1-score": 0.9946714031971581,
+                "support": 280.0
+            },
+            "31.Schist": {
+                "precision": 0.9752650176678446,
+                "recall": 0.9857142857142858,
+                "f1-score": 0.9804618117229129,
+                "support": 280.0
+            },
+            "32.Gneiss": {
+                "precision": 0.99644128113879,
+                "recall": 1.0,
+                "f1-score": 0.9982174688057041,
+                "support": 280.0
+            },
+            "33.Porphyry": {
+                "precision": 0.9488188976377953,
+                "recall": 0.8607142857142858,
+                "f1-score": 0.9026217228464419,
+                "support": 280.0
+            },
+            "34.Brecciated mudstone": {
+                "precision": 1.0,
+                "recall": 0.9821428571428571,
+                "f1-score": 0.990990990990991,
+                "support": 280.0
+            },
+            "35.Shale fragments": {
+                "precision": 0.972027972027972,
+                "recall": 0.9928571428571429,
+                "f1-score": 0.9823321554770318,
+                "support": 280.0
+            },
+            "accuracy": 0.9836734693877551,
+            "macro avg": {
+                "precision": 0.9840797290614426,
+                "recall": 0.9836734693877549,
+                "f1-score": 0.9836771031031379,
+                "support": 9800.0
+            },
+            "weighted avg": {
+                "precision": 0.9840797290614426,
+                "recall": 0.9836734693877551,
+                "f1-score": 0.9836771031031379,
+                "support": 9800.0
+            }
+        }
+    },
+    {
+        "C": 35,
+        "R": 128,
+        "L": 0.4,
+        "model_name": "EfficientNetB0_C-35_R-128_L-0.4_trainable-True_20260221-123704",
+        "best_val_accuracy": 0.991,
+        "best_val_loss": 0.1513,
+        "epochs_run": 9,
+        "train_time_s": 2495.2,
+        "test_accuracy": 0.9835,
+        "test_loss": 0.1777,
+        "eval_time_s": 66.3,
+        "per_class_metric": {
+            "1.Red sandstone": {
+                "precision": 0.9964285714285714,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9964285714285714,
+                "support": 280.0
+            },
+            "2.Light sandstone": {
+                "precision": 0.9893617021276596,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9928825622775801,
+                "support": 280.0
+            },
+            "3.Gray-green sandstone": {
+                "precision": 0.992831541218638,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.9910554561717353,
+                "support": 280.0
+            },
+            "4.Gray siltstone": {
+                "precision": 0.9893238434163701,
+                "recall": 0.9928571428571429,
+                "f1-score": 0.9910873440285205,
+                "support": 280.0
+            },
+            "5.Brown siltstone": {
+                "precision": 0.9888475836431226,
+                "recall": 0.95,
+                "f1-score": 0.9690346083788707,
+                "support": 280.0
+            },
+            "6.Carbonaceous siltstone": {
+                "precision": 0.9893617021276596,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9928825622775801,
+                "support": 280.0
+            },
+            "7.Mudstone": {
+                "precision": 0.9651567944250871,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.9770723104056437,
+                "support": 280.0
+            },
+            "8.Granite": {
+                "precision": 0.9964285714285714,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9964285714285714,
+                "support": 280.0
+            },
+            "9.Megacrystic granite": {
+                "precision": 0.9722222222222222,
+                "recall": 1.0,
+                "f1-score": 0.9859154929577465,
+                "support": 280.0
+            },
+            "10.Monzogranite": {
+                "precision": 0.9820143884892086,
+                "recall": 0.975,
+                "f1-score": 0.978494623655914,
+                "support": 280.0
+            },
+            "11.Fine-grained granite": {
+                "precision": 0.9928571428571429,
+                "recall": 0.9928571428571429,
+                "f1-score": 0.9928571428571429,
+                "support": 280.0
+            },
+            "12.Pegmatite": {
+                "precision": 0.9892857142857143,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.9892857142857143,
+                "support": 280.0
+            },
+            "13.Basalt": {
+                "precision": 0.9963503649635036,
+                "recall": 0.975,
+                "f1-score": 0.9855595667870036,
+                "support": 280.0
+            },
+            "14.Fine-grained basalt": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 280.0
+            },
+            "15.Gabbro": {
+                "precision": 0.9817518248175182,
+                "recall": 0.9607142857142857,
+                "f1-score": 0.9711191335740073,
+                "support": 280.0
+            },
+            "16.Dolerite": {
+                "precision": 0.9964028776978417,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.992831541218638,
+                "support": 280.0
+            },
+            "17.White marble": {
+                "precision": 0.975177304964539,
+                "recall": 0.9821428571428571,
+                "f1-score": 0.9786476868327402,
+                "support": 280.0
+            },
+            "18.Blue marble": {
+                "precision": 0.9754385964912281,
+                "recall": 0.9928571428571429,
+                "f1-score": 0.984070796460177,
+                "support": 280.0
+            },
+            "19.Dolomite": {
+                "precision": 1.0,
+                "recall": 0.95,
+                "f1-score": 0.9743589743589743,
+                "support": 280.0
+            },
+            "20.Black Shale": {
+                "precision": 0.9929078014184397,
+                "recall": 1.0,
+                "f1-score": 0.99644128113879,
+                "support": 280.0
+            },
+            "21.Red shale": {
+                "precision": 1.0,
+                "recall": 0.9607142857142857,
+                "f1-score": 0.9799635701275046,
+                "support": 280.0
+            },
+            "22.Dark green calc-silicate": {
+                "precision": 0.9824561403508771,
+                "recall": 1.0,
+                "f1-score": 0.9911504424778761,
+                "support": 280.0
+            },
+            "23.Brown calc-silicate": {
+                "precision": 0.9489795918367347,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9721254355400697,
+                "support": 280.0
+            },
+            "24.Skarn": {
+                "precision": 0.9789473684210527,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9876106194690265,
+                "support": 280.0
+            },
+            "25.Red-brown dacite": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 280.0
+            },
+            "26.Black dacite": {
+                "precision": 0.9786476868327402,
+                "recall": 0.9821428571428571,
+                "f1-score": 0.9803921568627451,
+                "support": 280.0
+            },
+            "27.Rhyolite": {
+                "precision": 1.0,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.998211091234347,
+                "support": 280.0
+            },
+            "28.Banded iron formation": {
+                "precision": 0.947565543071161,
+                "recall": 0.9035714285714286,
+                "f1-score": 0.9250457038391224,
+                "support": 280.0
+            },
+            "29.Hematite breccia": {
+                "precision": 0.9892086330935251,
+                "recall": 0.9821428571428571,
+                "f1-score": 0.985663082437276,
+                "support": 280.0
+            },
+            "30.Altered breccia": {
+                "precision": 0.9964028776978417,
+                "recall": 0.9892857142857143,
+                "f1-score": 0.992831541218638,
+                "support": 280.0
+            },
+            "31.Schist": {
+                "precision": 0.9855595667870036,
+                "recall": 0.975,
+                "f1-score": 0.9802513464991023,
+                "support": 280.0
+            },
+            "32.Gneiss": {
+                "precision": 0.9893992932862191,
+                "recall": 1.0,
+                "f1-score": 0.9946714031971581,
+                "support": 280.0
+            },
+            "33.Porphyry": {
+                "precision": 0.9047619047619048,
+                "recall": 0.95,
+                "f1-score": 0.926829268292683,
+                "support": 280.0
+            },
+            "34.Brecciated mudstone": {
+                "precision": 1.0,
+                "recall": 0.9785714285714285,
+                "f1-score": 0.9891696750902527,
+                "support": 280.0
+            },
+            "35.Shale fragments": {
+                "precision": 0.9653979238754326,
+                "recall": 0.9964285714285714,
+                "f1-score": 0.9806678383128296,
+                "support": 280.0
+            },
+            "accuracy": 0.9834693877551021,
+            "macro avg": {
+                "precision": 0.9836992879439296,
+                "recall": 0.9834693877551021,
+                "f1-score": 0.983458203289216,
+                "support": 9800.0
+            },
+            "weighted avg": {
+                "precision": 0.9836992879439295,
+                "recall": 0.9834693877551021,
+                "f1-score": 0.9834582032892157,
+                "support": 9800.0
+            }
+        }
+    }
+]
