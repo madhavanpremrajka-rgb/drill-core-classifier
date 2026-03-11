@@ -18,7 +18,6 @@ def get_class_names(target_dir):
     :param target_dir: The target directory within which the different classes are stored
     """
     class_names = os.listdir(target_dir)
-    class_names = sorted(class_names, key=lambda x: int(re.match(r'^\d+', x).group()))
     return class_names
 
 
