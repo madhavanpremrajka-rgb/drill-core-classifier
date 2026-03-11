@@ -33,8 +33,9 @@ from schemas import (
 
 #==============================================#
 #==============================================#
-MODELS_DIR = "../models"
-METRICS_PATH = '../Artifacts/metrics.json'
+MODELS_DIR   = os.environ.get("MODELS_DIR", "models")
+METRICS_PATH = os.environ.get("METRICS_PATH", "Artifacts/metrics.json")
+CLASS_NAMES_PATH = os.environ.get("CLASS_NAMES_PATH", "Artifacts/class_names.json")
 
 BEST_C = 35
 BEST_R = 128
@@ -49,13 +50,12 @@ ALLOWED_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp", ".webp"}
 
 #==============================================#
 #==============================================#
-def _load_class_names(C: int, R: int, L: int) -> list[str]:
+def _load_class_names() -> list[str]:
     """
     Loads the class names for given dataset configuration
     """
-    import re
-    target_dir = f'../Data/Data_Processed/Dataset-{C}_R-{R}_L-{L}_I-T/train'
-    class_names = os.listdir(target_dir)
+    with open(CLASS_NAMES_PATH, 'r') as f:
+        class_names = json.load(f)
     return class_names
 
 def _get_model_name(C: int, R: int, L: float) -> str:
@@ -106,7 +106,7 @@ async def lifespan(app: FastAPI):
 
     model_name = _get_model_name(BEST_C, BEST_R, BEST_L)
     model_path = os.path.join(MODELS_DIR, model_name, "model.keras")
-    class_names = _load_class_names(BEST_C, BEST_R, BEST_L)
+    class_names = _load_class_names()
 
     print(f"Loading model from {model_path}...")
     model = keras.models.load_model(
